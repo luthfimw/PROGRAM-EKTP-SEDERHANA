@@ -182,26 +182,26 @@ def input_ktp():
                         print("")
                         break
         return list_KTP
-                        
+
 #3 FUNGIS INI DIGUNAKAN UNTUK MENCETAK DATA KTP 
-def mencetak(nik, nama, tempatlahir, tanggallahir, jeniskelamin, golongandarah, provinsi, kota, namakota, kecamatan, kelurahan, rt, rw, alamat, agama, status, pekerjaan, kewarganegaraan, masaberlaku, hariini,namkot):
+def mencetak(list_KTP):
                 print("")
                 kartu_nomor = int(input("\nMasukkan nomor kartu Anda : "))
                 print("","\nTampilkan data kartu dengan nomor", kartu_nomor, "... \n")
                 print('{0}Kartu Tanda Penduduk {0}'.format(' '*27))
                 print('{0}'.format('-'*70))
                 print('|{0}|'.format(' '*68))
-                provinsi='PROVINSI {}'.format(provinsi)
+                list_KTP[0][7]='PROVINSI {}'.format(list_KTP[0][7])
                 while True:
-                            if (int(len(provinsi))%2==1):
-                                provinsi='{0} '.format(provinsi)
-                                a=int((68-int(len(provinsi)))/2)
+                            if (int(len(list_KTP[0][7]))%2==1):
+                                list_KTP[0][7]='{0} '.format(list_KTP[0][7])
+                                a=int((68-int(len(list_KTP[0][7])))/2)
                                 break
                             else:
-                                a=int((68-int(len(provinsi)))/2)
+                                a=int((68-int(len(list_KTP[0][7])))/2)
                                 break
-                print('|{0}{1}{0}|'.format(' '*a,provinsi))
-                namakota='{0} {1}'.format(kota,namakota)
+                print('|{0}{1}{0}|'.format(' '*a,list_KTP[0][7]))
+                namakota='{0} {1}'.format(list_KTP[0][8],namakota)
                 while True:
                             if (int(len(namakota))%2==1):
                                 namakota='{0} '.format(namakota)
@@ -212,8 +212,8 @@ def mencetak(nik, nama, tempatlahir, tanggallahir, jeniskelamin, golongandarah, 
                                 break
                 print('|{0}{1}{0}|'.format(' '*b,namakota))
                 print('|{0}|'.format(' '*68))
-                nik="|  NIK               : {0}".format(nik)
-                print("{0}{1}|".format(nik,' '*int(69-int(len(nik)))))
+                list_KTP[0][1]="|  NIK               : {0}".format(list_KTP[0][1])
+                print("{0}{1}|".format(list_KTP[0][1],' '*int(69-int(len(list_KTP[0][1])))))
                 print('|{0}------------  |'.format(' '*54))
                 nama='|  Nama              : {0}'.format(nama)
                 print("{0}{1}|          |  |".format(nama,' '*int(55-int(len(nama)))))
@@ -259,10 +259,10 @@ def mencetak(nik, nama, tempatlahir, tanggallahir, jeniskelamin, golongandarah, 
                 dataa.write('{0}Kartu Tanda Penduduk {0}'.format(' '*25)+'\n')
                 dataa.write('{0}'.format('-'*70)+'\n')
                 dataa.write('|{0}|'.format(' '*68)+'\n')        
-                dataa.write('|{0}{1}{0}|'.format(' '*a,provinsi)+'\n')        
+                dataa.write('|{0}{1}{0}|'.format(' '*a,list_KTP[0][7])+'\n')        
                 dataa.write('|{0}{1}{0}|'.format(' '*b,namakota)+'\n')
                 dataa.write('|{0}|'.format(' '*68)+'\n')
-                dataa.write("{0}{1}|".format(nik,' '*int(69-int(len(nik))))+'\n')
+                dataa.write("{0}{1}|".format(list_KTP[0][1],' '*int(69-int(len(list_KTP[0][1]))))+'\n')
                 dataa.write('|{0}------------  |'.format(' '*54)+'\n')    
                 dataa.write("{0}{1}|          |  |".format(nama,' '*int(55-int(len(nama))))+'\n') 
                 dataa.write("{0}{1}|          |  |".format(ttl,' '*int(55-int(len(ttl))))+'\n')     

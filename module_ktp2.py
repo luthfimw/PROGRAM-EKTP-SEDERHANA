@@ -195,104 +195,113 @@ def input_ktp():
 
 #3 FUNGIS INI DIGUNAKAN UNTUK MENCETAK DATA KTP 
 def mencetak(list_KTP):
-                for i in list_KTP:
-                        print("")
-                        kartu_nomor = int(input("\nMasukkan nomor kartu yang ingin diceetak : "))
-                        print("","\nTampilkan data kartu dengan nomor", kartu_nomor, "... \n")
-                        print('{0}Kartu Tanda Penduduk {0}'.format(' '*27))
-                        print('{0}'.format('-'*70))
-                        print('|{0}|'.format(' '*68))
-                        i[7]='PROVINSI {}'.format(i[7])
-                        while True:
-                                if (int(len(i[7]))%2==1):
-                                        i[7]='{0} '.format(i[7])
-                                        a=int((68-int(len(i[7])))/2)
-                                        break
+                while True:
+                        try:
+                                kartu_nomor = int(input("\nMasukkan nomor kartu yang ingin dicetak : "))
+                                if kartu_nomor>=1 and kartu_nomor<=len(list_KTP):
+                                        list_inisialisai = list_KTP[kartu_nomor-1]
+                                        list_mencetak_spesifik = []
+                                        list_mencetak_spesifik.append(list_inisialisai)
+                                        for i in list_mencetak_spesifik:
+                                                print("")
+                                                print("","\nTampilkan data kartu dengan nomor", kartu_nomor, "... \n")
+                                                print('{0}Kartu Tanda Penduduk {0}'.format(' '*27))
+                                                print('{0}'.format('-'*70))
+                                                print('|{0}|'.format(' '*68))
+                                                i[7]='PROVINSI {}'.format(i[7])
+                                                while True:
+                                                        if (int(len(i[7]))%2==1):
+                                                                i[7]='{0} '.format(i[7])
+                                                                a=int((68-int(len(i[7])))/2)
+                                                                break
+                                                        else:
+                                                                a=int((68-int(len(i[7])))/2)
+                                                                break
+                                                print('|{0}{1}{0}|'.format(' '*a,i[7]))
+                                                i[20]='{0} {1}'.format(i[8],i[20])
+                                                while True:
+                                                        if (int(len(i[20]))%2==1):
+                                                                i[20]='{0} '.format(i[20])
+                                                                b=int((68-int(len(i[20])))/2)
+                                                                break
+                                                        else:
+                                                                b=int((68-int(len(i[20])))/2)
+                                                                break
+                                                print('|{0}{1}{0}|'.format(' '*b,i[20]))
+                                                print('|{0}|'.format(' '*68))
+                                                i[1]="|  NIK               : {0}".format(i[1])
+                                                print("{0}{1}|".format(i[1],' '*int(69-int(len(i[1])))))
+                                                print('|{0}------------  |'.format(' '*54))
+                                                i[2]='|  Nama              : {0}'.format(i[2])
+                                                print("{0}{1}|          |  |".format(i[2],' '*int(55-int(len(i[2])))))
+                                                ttl='|  Tempat/Tgl Lahir  : {0}, {1}'.format(i[3],i[4])
+                                                print("{0}{1}|          |  |".format(ttl,' '*int(55-int(len(ttl)))))
+                                                i[5]='|  Jenis kelamin     : {0}'.format(i[5])
+                                                i[6]='      Gol. Darah  : {0}'.format(i[6])
+                                                jekgol=int(len(i[5]))+int(len(i[6]))
+                                                print('{0}{1}{2}|          |  |'.format(i[5],i[6],' '*int(55-int(jekgol))))
+                                                i[14]='|  Alamat            : {0}'.format(i[14])
+                                                print("{0}{1}|          |  |".format(i[14],' '*int(55-int(len(i[14])))))
+                                                rtrw='|      RT/RW         : {0}/{1}'.format(i[12],i[13])
+                                                print('{0}{1}|   FOTO   |  |'.format(rtrw,' '*int(55-int(len(rtrw)))))
+                                                i[11]="|      Kel/Desa      : {0}".format(i[11])
+                                                print('{0}{1}|          |  |'.format(i[11],' '*int(55-int(len(i[11])))))
+                                                i[10]="|      Kecamatan     : {0}".format(i[10])
+                                                print('{0}{1}|          |  |'.format(i[10],' '*int(55-int(len(i[10])))))
+                                                i[15]="|  Agama             : {0}".format(i[15])
+                                                print("{0}{1}|          |  |".format(i[15],' '*int(55-int(len(i[15])))))
+                                                i[16]="|  Status Perkawinan : {0}".format(i[16])
+                                                print("{0}{1}------------  |".format(i[16],' '*int(55-int(len(i[16])))))
+                                                i[17]="|  Pekerjaan         : {0}".format(i[17])
+                                                while True:
+                                                        if (int(len(i[9]))%2==1):
+                                                                i[9]='{0} '.format(i[9])
+                                                                c=int((16-int(len(i[9])))/2)
+                                                                break
+                                                        else:
+                                                                c=int((16-int(len(i[9])))/2)
+                                                                break
+                                                print("{0}{1}{2}{3}{2}|".format(i[17],' '*int(53-int(len(i[17]))),' '*c,i[9]))
+                                                i[18]="|  Kewarganegaraan   : {0}".format(i[18])
+                                                print("{0}{1} {2}   |".format(i[18],' '*int(55-int(len(i[18]))),i[0]))
+                                                i[19]="|  Berlaku Hingga    : {0}".format(i[19])
+                                                print("{0}{1}|".format(i[19],' '*int(69-int(len(i[19])))))
+                                                print('|{0}|'.format(' '*68))
+                                                print('|{0}|'.format(' '*68))
+                                                print('|{0}TTD       |'.format(' '*58))
+                                                print('|{0}|'.format(' '*68))
+                                                print('-'*70)               
+                                #KODE DI BAWAH INI UNTUK MENAMPILKAN DI NOTEPAD
+                                                dataa = open('output_ktp_M0122064.txt',"a")
+                                                dataa.write('{0}Kartu Tanda Penduduk {0}'.format(' '*25)+'\n')
+                                                dataa.write('{0}'.format('-'*70)+'\n')
+                                                dataa.write('|{0}|'.format(' '*68)+'\n')        
+                                                dataa.write('|{0}{1}{0}|'.format(' '*a,i[7])+'\n')        
+                                                dataa.write('|{0}{1}{0}|'.format(' '*b,i[20])+'\n')
+                                                dataa.write('|{0}|'.format(' '*68)+'\n')
+                                                dataa.write("{0}{1}|".format(i[1],' '*int(69-int(len(i[1]))))+'\n')
+                                                dataa.write('|{0}------------  |'.format(' '*54)+'\n')    
+                                                dataa.write("{0}{1}|          |  |".format(i[1],' '*int(55-int(len(i[1]))))+'\n') 
+                                                dataa.write("{0}{1}|          |  |".format(ttl,' '*int(55-int(len(ttl))))+'\n')     
+                                                dataa.write('{0}{1}{2}|          |  |'.format(i[5],i[6],' '*int(55-int(jekgol)))+'\n')     
+                                                dataa.write("{0}{1}|          |  |".format(i[14],' '*int(55-int(len(i[14]))))+'\n')   
+                                                dataa.write('{0}{1}|   FOTO   |  |'.format(rtrw,' '*int(55-int(len(rtrw))))+'\n')  
+                                                dataa.write('{0}{1}|          |  |'.format(i[11],' '*int(55-int(len(i[11]))))+'\n')  
+                                                dataa.write('{0}{1}|          |  |'.format(i[10],' '*int(55-int(len(i[10]))))+'\n')
+                                                dataa.write("{0}{1}|          |  |".format(i[15],' '*int(55-int(len(i[15]))))+'\n')
+                                                dataa.write("{0}{1}------------  |".format(i[16],' '*int(55-int(len(i[16]))))+'\n')
+                                                dataa.write("{0}{1}{2}{3}{2}|".format(i[17],' '*int(53-int(len(i[17]))),' '*c,i[9])+'\n') 
+                                                dataa.write("{0}{1} {2}   |".format(i[18],' '*int(55-int(len(i[18]))),i[0])+'\n')
+                                                dataa.write("{0}{1}|".format(i[19],' '*int(69-int(len(i[19]))))+'\n')
+                                                dataa.write('|{0}|'.format(' '*68)+'\n')
+                                                dataa.write('|{0}|'.format(' '*68)+'\n')
+                                                dataa.write('|{0}TTD       |'.format(' '*58)+'\n')
+                                                dataa.write('|{0}|'.format(' '*68)+'\n')
+                                                dataa.write('-'*70+'\n')
                                 else:
-                                        a=int((68-int(len(i[7])))/2)
-                                        break
-                        print('|{0}{1}{0}|'.format(' '*a,i[7]))
-                        i[20]='{0} {1}'.format(i[8],i[20])
-                        while True:
-                                if (int(len(i[20]))%2==1):
-                                        i[20]='{0} '.format(i[20])
-                                        b=int((68-int(len(i[20])))/2)
-                                        break
-                                else:
-                                        b=int((68-int(len(i[20])))/2)
-                                        break
-                        print('|{0}{1}{0}|'.format(' '*b,i[20]))
-                        print('|{0}|'.format(' '*68))
-                        i[1]="|  NIK               : {0}".format(i[1])
-                        print("{0}{1}|".format(i[1],' '*int(69-int(len(i[1])))))
-                        print('|{0}------------  |'.format(' '*54))
-                        i[2]='|  Nama              : {0}'.format(i[2])
-                        print("{0}{1}|          |  |".format(i[2],' '*int(55-int(len(i[2])))))
-                        ttl='|  Tempat/Tgl Lahir  : {0}, {1}'.format(i[3],i[4])
-                        print("{0}{1}|          |  |".format(ttl,' '*int(55-int(len(ttl)))))
-                        i[5]='|  Jenis kelamin     : {0}'.format(i[5])
-                        i[6]='      Gol. Darah  : {0}'.format(i[6])
-                        jekgol=int(len(i[5]))+int(len(i[6]))
-                        print('{0}{1}{2}|          |  |'.format(i[5],i[6],' '*int(55-int(jekgol))))
-                        i[14]='|  Alamat            : {0}'.format(i[14])
-                        print("{0}{1}|          |  |".format(i[14],' '*int(55-int(len(i[14])))))
-                        rtrw='|      RT/RW         : {0}/{1}'.format(i[12],i[13])
-                        print('{0}{1}|   FOTO   |  |'.format(rtrw,' '*int(55-int(len(rtrw)))))
-                        i[11]="|      Kel/Desa      : {0}".format(i[11])
-                        print('{0}{1}|          |  |'.format(i[11],' '*int(55-int(len(i[11])))))
-                        i[10]="|      Kecamatan     : {0}".format(i[10])
-                        print('{0}{1}|          |  |'.format(i[10],' '*int(55-int(len(i[10])))))
-                        i[15]="|  Agama             : {0}".format(i[15])
-                        print("{0}{1}|          |  |".format(i[15],' '*int(55-int(len(i[15])))))
-                        i[16]="|  Status Perkawinan : {0}".format(i[16])
-                        print("{0}{1}------------  |".format(i[16],' '*int(55-int(len(i[16])))))
-                        i[17]="|  Pekerjaan         : {0}".format(i[17])
-                        while True:
-                                if (int(len(i[9]))%2==1):
-                                        i[9]='{0} '.format(i[9])
-                                        c=int((16-int(len(i[9])))/2)
-                                        break
-                                else:
-                                        c=int((16-int(len(i[9])))/2)
-                                        break
-                        print("{0}{1}{2}{3}{2}|".format(i[17],' '*int(53-int(len(i[17]))),' '*c,i[9]))
-                        i[18]="|  Kewarganegaraan   : {0}".format(i[18])
-                        print("{0}{1} {2}   |".format(i[18],' '*int(55-int(len(i[18]))),i[0]))
-                        i[19]="|  Berlaku Hingga    : {0}".format(i[19])
-                        print("{0}{1}|".format(i[19],' '*int(69-int(len(i[19])))))
-                        print('|{0}|'.format(' '*68))
-                        print('|{0}|'.format(' '*68))
-                        print('|{0}TTD       |'.format(' '*58))
-                        print('|{0}|'.format(' '*68))
-                        print('-'*70)               
-        #KODE DI BAWAH INI UNTUK MENAMPILKAN DI NOTEPAD
-                        dataa = open('output_ktp_M0122064.txt',"a")
-                        dataa.write('{0}Kartu Tanda Penduduk {0}'.format(' '*25)+'\n')
-                        dataa.write('{0}'.format('-'*70)+'\n')
-                        dataa.write('|{0}|'.format(' '*68)+'\n')        
-                        dataa.write('|{0}{1}{0}|'.format(' '*a,i[7])+'\n')        
-                        dataa.write('|{0}{1}{0}|'.format(' '*b,i[20])+'\n')
-                        dataa.write('|{0}|'.format(' '*68)+'\n')
-                        dataa.write("{0}{1}|".format(i[1],' '*int(69-int(len(i[1]))))+'\n')
-                        dataa.write('|{0}------------  |'.format(' '*54)+'\n')    
-                        dataa.write("{0}{1}|          |  |".format(i[1],' '*int(55-int(len(i[1]))))+'\n') 
-                        dataa.write("{0}{1}|          |  |".format(ttl,' '*int(55-int(len(ttl))))+'\n')     
-                        dataa.write('{0}{1}{2}|          |  |'.format(i[5],i[6],' '*int(55-int(jekgol)))+'\n')     
-                        dataa.write("{0}{1}|          |  |".format(i[14],' '*int(55-int(len(i[14]))))+'\n')   
-                        dataa.write('{0}{1}|   FOTO   |  |'.format(rtrw,' '*int(55-int(len(rtrw))))+'\n')  
-                        dataa.write('{0}{1}|          |  |'.format(i[11],' '*int(55-int(len(i[11]))))+'\n')  
-                        dataa.write('{0}{1}|          |  |'.format(i[10],' '*int(55-int(len(i[10]))))+'\n')
-                        dataa.write("{0}{1}|          |  |".format(i[15],' '*int(55-int(len(i[15]))))+'\n')
-                        dataa.write("{0}{1}------------  |".format(i[16],' '*int(55-int(len(i[16]))))+'\n')
-                        dataa.write("{0}{1}{2}{3}{2}|".format(i[17],' '*int(53-int(len(i[17]))),' '*c,i[9])+'\n') 
-                        dataa.write("{0}{1} {2}   |".format(i[18],' '*int(55-int(len(i[18]))),i[0])+'\n')
-                        dataa.write("{0}{1}|".format(i[19],' '*int(69-int(len(i[19]))))+'\n')
-                        dataa.write('|{0}|'.format(' '*68)+'\n')
-                        dataa.write('|{0}|'.format(' '*68)+'\n')
-                        dataa.write('|{0}TTD       |'.format(' '*58)+'\n')
-                        dataa.write('|{0}|'.format(' '*68)+'\n')
-                        dataa.write('-'*70+'\n')
-        
+                                        print('Masukkan nomor data E-KTP sesuai yang anda dapatkan!')
+                        except ValueError:
+                                print('Mohon masukkan nomor KTP dengan benar')
 #4 FUGNSI INI UNTUK MENGHAPUS DATA E-KTP YANG SUDAH DI BUAT
 def hapus_data(list_KTP):
         kartu_nomor = int(input("\nMasukkan nomor kartu anda : "))

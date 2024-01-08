@@ -182,8 +182,14 @@ def input_ktp():
                                 print(("Anda mendapatkan kartu nomor " + str(len(list_KTP))))
                                 print("")
                                 break
-                        else:
+                                
+                        elif ulang in ["tidak","Tidak","TIDAK","TDK","tdk","Tdk"]:
                                 print('Silahkan masukkan data ktp lagi...')
+                                break
+                pilihan_loop_utama = input('Apakah anda ingin memasukkan data ktp lainnya atau ingin memasukkan ulang? Ketik "iya" jika setuju atau ketik "tidak" jika tidak setuju.')
+                if pilihan_loop_utama in ["tidak","Tidak","TIDAK","TDK","tdk","Tdk"]:
+                        break
+                else:
                         pass
                 return list_KTP
 

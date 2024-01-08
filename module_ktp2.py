@@ -305,29 +305,45 @@ def mencetak(list_KTP):
 #4 FUGNSI INI UNTUK MENGHAPUS DATA E-KTP YANG SUDAH DI BUAT
 def hapus_data(list_KTP):
         print('MENGHAPUS DATA KTP')
-        print('Silahkan masukkan nomor yang sesuai dengan opsi berikut : \n1 Keseluruhan data E-KTP (Jika anda memiliki lebih dari 1 nomor data E-KTP, maka semua nomor kartu beserta data yang anda masukkan akan dihapus) \n2 Beberapa data E-KTP (Jika anda memiliki lebih dari 1 nomor data E-KTP, maka anda dapat menghapus data E-KTP pada nomor tertentu)')
+        print('Silahkan masukkan nomor yang sesuai dengan opsi berikut : \n1 Keseluruhan data E-KTP (Jika anda memiliki lebih dari 1 nomor data E-KTP, maka semua nomor kartu beserta data yang anda masukkan akan dihapus) \n2 Beberapa data E-KTP (Jika anda memiliki lebih dari 1 nomor data E-KTP, maka anda dapat menghapus data E-KTP pada nomor tertentu) \n3 Batalkan program penghapusann data E-KTP')
         
         while True:
-                kartu_nomor = int(input("\nPilih nomor yang sesuai untuk opsi menghapus : "))
-                if kartu_nomor == 1:
-                        keputusan = input('Apakah anda yakin ingin menghapus semua nomor kartu yang menyimpan data E-KTP anda? Ketik "iya" jika setuju dan ketik "tidak" jika tidak setuju')
-                        if keputusan == ["iya","IYA","Iya","ya","YA","Ya"]:
-                                list_KTP.clear()
-                                print(f"Seluruh nomor kartu yang anda miliki untuk menyimpan data E-KTP anda sudah dihapus...")
-                                break 
+                try:
+                        kartu_nomor = int(input("\nPilih nomor yang sesuai untuk opsi menghapus : "))
+                        if kartu_nomor == 1:
+ 
+                                        keputusan = input('Apakah anda yakin ingin menghapus semua nomor kartu yang menyimpan data E-KTP anda? Ketik "iya" jika setuju dan ketik "tidak" jika tidak setuju')
+                                        if keputusan == ["iya","IYA","Iya","ya","YA","Ya"]:
+                                                list_KTP.clear()
+                                                print(f"Seluruh nomor kartu yang anda miliki untuk menyimpan data E-KTP anda sudah dihapus...")
+                                                break 
+                                        else:
+                                                print('Program penghapusan opsi 1 dibatalkan...')
+
+                        if kartu_nomor == 2:
+                                keputusan = input('Apakah anda yakin ingin menghapus semua nomor kartu yang menyimpan data E-KTP anda? Ketik "iya" jika setuju dan ketik "tidak" jika tidak setuju')
+                                if keputusan == ["iya","IYA","Iya","ya","YA","Ya"]:
+                                        try:
+                                                pilih_nomor = int(input('Masukkan nomor kartu data E-KTP yang ingin dihapus : '))
+                                                if pilih_nomor>=1 and pilih_nomor<=len(list_KTP):
+                                                        print("")
+                                                        list_KTP[pilih_nomor-1] = None #dibikin none, karena kalau di hapus, otomatis tempat list dia akan diisi oleh list_KTP[pilih_nomor-2], (cuma kegeser lah), makanya pakai none biar ga geser 
+                                                        print("Data kartu dengan nomor " + str(kartu_nomor) + " telah dihapus", "\n")
+                                                        break
+                                                else:
+                                                        print(f'Anda memiliki nomor kartu yang menyipan data E-KTP dari nomor 1 hingga {len(list_KTP)} mohon pilih salah satu')
+                                        except ValueError:
+                                                print('\nMohon masukkan dengan nomor E-KTP yang anda miliki')
+                                else:
+                                        print('Program penghapusan opsi 2 dibatalkan...')
+
+                        if kartu_nomor == 3:
+                                print('\nProgram penghapusan data E-KTP dibatalkan...')
+                                break
                         else:
-                                print('Program penghapusan dibatalkan...')
-                if kartu_nomor == 2:
-                        pilih_nomor = int(input('Masukkan nomor kartu data E-KTP yang ingin dihapus : '))
-                        if pilih_nomor>=1 and pilih_nomor<=len(list_KTP):
-                                print("")
-                                list_KTP[pilih_nomor-1] = None
-                                print("Data kartu dengan nomor " + str(kartu_nomor) + " telah dihapus", "\n")
-                        else:
-                                print(f'Anda memiliki nomor kartu yang menyipan data E-KTP dari nomor 1 hingga {len(list_KTP)} mohon pilih salah satu')
-                  
-                else:
-                        print('Mohon msukkan sesuai nomor pilihan yang tertera diatas...')
+                                print('Mohon masukkan sesuai nomor pilihan yang tertera diatas...')
+                except ValueError:
+                        print('Mohon isikan dengan angka yang tertera saja...')
 #5 UNTUK KELUAR DARI PROGRAM
 def program_selesai():
         while True: 

@@ -18,7 +18,7 @@ while True:
             if pilihan == 2:
                 try:
                     mencetak(list_KTP)
-                except NameError:
+                except NameError: #karena list_KTP belum terdeteksi secara global
                     print(f"\n\n{'='*75}")
                     print('Maaf, anda harus mengisikan data E-KTP pada pilihan pertama terlebih dahulu')
                     print(f"{'='*75}\n\n")
@@ -30,7 +30,7 @@ while True:
             if pilihan == 3:
                 try:
                     hapus_data(list_KTP)
-                except NameError:
+                except NameError: #karena list_KTP belum terdeteksi secara global
                     print(f"\n\n{'='*60}")
                     print('Maaf, anda belum mengisikan data E-KTP pada pilihan pertama.')
                     print(f"{'='*60}\n\n")

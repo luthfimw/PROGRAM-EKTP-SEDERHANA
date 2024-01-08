@@ -148,3 +148,78 @@
 |                                                          TTD       |
 |                                                                    |
 ----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 4444444499999999                              |
+|                                                      ------------  |
+|  NIK               : 4444444499999999                |          |  |
+|  Tempat/Tgl Lahir  : TULUNGAGUNG, 12-12-2012         |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : BELOK KIRI DIKIT                |          |  |
+|      RT/RW         : 007/777                         |   FOTO   |  |
+|      Kel/Desa      : ARUS                            |          |  |
+|      Kecamatan     : ATRAKARUS                       |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : SUDAH 3 KALI                    ------------  |
+|  Pekerjaan         : MAHASISWA                        SURAKARTA    |
+|  Kewarganegaraan   : WNI                              08-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 1111111133333333                              |
+|                                                      ------------  |
+|  NIK               : 1111111133333333                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARKA, 12-12-1111           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : SADA                            |          |  |
+|      RT/RW         : 121/121                         |   FOTO   |  |
+|      Kel/Desa      : SAWO                            |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : ASA                             ------------  |
+|  Pekerjaan         : ASA                              SURAKARTA    |
+|  Kewarganegaraan   : WNI                              08-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                            PROVINSI ASA                            |
+|                              KOTA 23                               |
+|                                                                    |
+|  NIK               : 2222222222222222                              |
+|                                                      ------------  |
+|  NIK               : 2222222222222222                |          |  |
+|  Tempat/Tgl Lahir  : L, 12-11-1111                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : JALAN SAWO AJJAR                |          |  |
+|      RT/RW         : 003/004                         |   FOTO   |  |
+|      Kel/Desa      : DA                              |          |  |
+|      Kecamatan     : DSAD                            |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : 232                             ------------  |
+|  Pekerjaan         : DA                                   23       |
+|  Kewarganegaraan   : SAD                              08-01-2024   |
+|  Berlaku Hingga    : 08-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------

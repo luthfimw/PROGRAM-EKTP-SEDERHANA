@@ -298,10 +298,15 @@ def mencetak(list_KTP):
                                                 dataa.write('|{0}TTD       |'.format(' '*58)+'\n')
                                                 dataa.write('|{0}|'.format(' '*68)+'\n')
                                                 dataa.write('-'*70+'\n')
+                                        ulang = str(input("Apakah anda ingin mencetak nomor kartu lainnya? Ketik 'iya' jika sudah dan 'tidak' jika belum. \n"))
+                                        if ulang in ["tidak","Tidak","TIDAK","TDK","tdk","Tdk"]: 
+                                                print('Program mencetak data E-KTP dihentikan...\n')
+                                                break
+
                                 else:
-                                        print('Masukkan nomor kartu data E-KTP sesuai yang anda dapatkan!')
+                                        print('Masukkan nomor kartu data E-KTP sesuai yang anda dapatkan!...')
                         except ValueError:
-                                print('Mohon masukkan nomor KTP dengan benar')
+                                print('Mohon untuk memasukkan nomor E-KTP dengan benar...')
 #4 FUGNSI INI UNTUK MENGHAPUS DATA E-KTP YANG SUDAH DI BUAT
 def hapus_data(list_KTP):
         print('MENGHAPUS DATA KTP')
@@ -344,6 +349,7 @@ def hapus_data(list_KTP):
                                 print('Mohon masukkan sesuai nomor pilihan yang tertera diatas...')
                 except ValueError:
                         print('Mohon isikan dengan angka yang tertera saja...')
+                        
 #5 UNTUK KELUAR DARI PROGRAM
 def program_selesai():
         while True: 

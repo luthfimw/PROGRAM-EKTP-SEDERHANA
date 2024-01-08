@@ -208,64 +208,64 @@ def mencetak(list_KTP):
                                                 print('{0}Kartu Tanda Penduduk {0}'.format(' '*27))
                                                 print('{0}'.format('-'*70))
                                                 print('|{0}|'.format(' '*68))
-                                                i[7]='PROVINSI {}'.format(i[7])
+                                                provinsi='PROVINSI {}'.format(i[7])
                                                 while True:
-                                                        if (int(len(i[7]))%2==1):
-                                                                i[7]='{0} '.format(i[7])
-                                                                a=int((68-int(len(i[7])))/2)
+                                                        if (int(len(provinsi))%2==1):
+                                                                provinsi='{0} '.format(provinsi)
+                                                                a=int((68-int(len(provinsi)))/2)
                                                                 break
                                                         else:
-                                                                a=int((68-int(len(i[7])))/2)
+                                                                a=int((68-int(len(provinsi)))/2)
                                                                 break
-                                                print('|{0}{1}{0}|'.format(' '*a,i[7]))
-                                                i[20]='{0} {1}'.format(i[8],i[20])
+                                                print('|{0}{1}{0}|'.format(' '*a,provinsi))
+                                                namakota='{0} {1}'.format(i[8],i[20])
                                                 while True:
-                                                        if (int(len(i[20]))%2==1):
+                                                        if (int(len(namakota))%2==1):
                                                                 i[20]='{0} '.format(i[20])
-                                                                b=int((68-int(len(i[20])))/2)
+                                                                b=int((68-int(len(namakota)))/2)
                                                                 break
                                                         else:
-                                                                b=int((68-int(len(i[20])))/2)
+                                                                b=int((68-int(len(namakota)))/2)
                                                                 break
-                                                print('|{0}{1}{0}|'.format(' '*b,i[20]))
+                                                print('|{0}{1}{0}|'.format(' '*b,namakota))
                                                 print('|{0}|'.format(' '*68))
-                                                i[1]="|  NIK               : {0}".format(i[1])
-                                                print("{0}{1}|".format(i[1],' '*int(69-int(len(i[1])))))
+                                                nik="|  NIK               : {0}".format(i[1])
+                                                print("{0}{1}|".format(nik,' '*int(69-int(len(nik)))))
                                                 print('|{0}------------  |'.format(' '*54))
-                                                i[2]='|  Nama              : {0}'.format(i[2])
-                                                print("{0}{1}|          |  |".format(i[2],' '*int(55-int(len(i[2])))))
+                                                nama='|  Nama              : {0}'.format(i[2])
+                                                print("{0}{1}|          |  |".format(nama,' '*int(55-int(len(nama)))))
                                                 ttl='|  Tempat/Tgl Lahir  : {0}, {1}'.format(i[3],i[4])
                                                 print("{0}{1}|          |  |".format(ttl,' '*int(55-int(len(ttl)))))
-                                                i[5]='|  Jenis kelamin     : {0}'.format(i[5])
-                                                i[6]='      Gol. Darah  : {0}'.format(i[6])
-                                                jekgol=int(len(i[5]))+int(len(i[6]))
-                                                print('{0}{1}{2}|          |  |'.format(i[5],i[6],' '*int(55-int(jekgol))))
-                                                i[14]='|  Alamat            : {0}'.format(i[14])
-                                                print("{0}{1}|          |  |".format(i[14],' '*int(55-int(len(i[14])))))
+                                                jeniskelamin='|  Jenis kelamin     : {0}'.format(i[5])
+                                                golongandarah='      Gol. Darah  : {0}'.format(i[6])
+                                                jekgol=int(len(jeniskelamin))+int(len(golongandarah))
+                                                print('{0}{1}{2}|          |  |'.format(jeniskelamin,golongandarah,' '*int(55-int(jekgol))))
+                                                alamat='|  Alamat            : {0}'.format(i[14])
+                                                print("{0}{1}|          |  |".format(alamat,' '*int(55-int(len(alamat)))))
                                                 rtrw='|      RT/RW         : {0}/{1}'.format(i[12],i[13])
                                                 print('{0}{1}|   FOTO   |  |'.format(rtrw,' '*int(55-int(len(rtrw)))))
-                                                i[11]="|      Kel/Desa      : {0}".format(i[11])
-                                                print('{0}{1}|          |  |'.format(i[11],' '*int(55-int(len(i[11])))))
-                                                i[10]="|      Kecamatan     : {0}".format(i[10])
-                                                print('{0}{1}|          |  |'.format(i[10],' '*int(55-int(len(i[10])))))
-                                                i[15]="|  Agama             : {0}".format(i[15])
-                                                print("{0}{1}|          |  |".format(i[15],' '*int(55-int(len(i[15])))))
-                                                i[16]="|  Status Perkawinan : {0}".format(i[16])
-                                                print("{0}{1}------------  |".format(i[16],' '*int(55-int(len(i[16])))))
-                                                i[17]="|  Pekerjaan         : {0}".format(i[17])
+                                                kelurahan="|      Kel/Desa      : {0}".format(i[11])
+                                                print('{0}{1}|          |  |'.format(kelurahan,' '*int(55-int(len(kelurahan)))))
+                                                kecamatan="|      Kecamatan     : {0}".format(i[10])
+                                                print('{0}{1}|          |  |'.format(kecamatan,' '*int(55-int(len(kecamatan)))))
+                                                agama="|  Agama             : {0}".format(i[15])
+                                                print("{0}{1}|          |  |".format(agama,' '*int(55-int(len(agama)))))
+                                                status="|  Status Perkawinan : {0}".format(i[16])
+                                                print("{0}{1}------------  |".format(status,' '*int(55-int(len(status)))))
+                                                pekerjaan="|  Pekerjaan         : {0}".format(i[17])
                                                 while True:
                                                         if (int(len(i[9]))%2==1):
-                                                                i[9]='{0} '.format(i[9])
-                                                                c=int((16-int(len(i[9])))/2)
+                                                                namkot='{0} '.format(i[9])
+                                                                c=int((16-int(len(namkot)))/2)
                                                                 break
                                                         else:
-                                                                c=int((16-int(len(i[9])))/2)
+                                                                c=int((16-int(len(namkot)))/2)
                                                                 break
-                                                print("{0}{1}{2}{3}{2}|".format(i[17],' '*int(53-int(len(i[17]))),' '*c,i[9]))
-                                                i[18]="|  Kewarganegaraan   : {0}".format(i[18])
-                                                print("{0}{1} {2}   |".format(i[18],' '*int(55-int(len(i[18]))),i[0]))
-                                                i[19]="|  Berlaku Hingga    : {0}".format(i[19])
-                                                print("{0}{1}|".format(i[19],' '*int(69-int(len(i[19])))))
+                                                print("{0}{1}{2}{3}{2}|".format(pekerjaan,' '*int(53-int(len(pekerjaan))),' '*c,namkot))
+                                                kewarganegaraan="|  Kewarganegaraan   : {0}".format(i[18])
+                                                print("{0}{1} {2}   |".format(kewarganegaraan,' '*int(55-int(len(kewarganegaraan))),i[0]))
+                                                masaberlaku="|  Berlaku Hingga    : {0}".format(i[19])
+                                                print("{0}{1}|".format(masaberlaku,' '*int(69-int(len(masaberlaku)))))
                                                 print('|{0}|'.format(' '*68))
                                                 print('|{0}|'.format(' '*68))
                                                 print('|{0}TTD       |'.format(' '*58))
@@ -276,23 +276,23 @@ def mencetak(list_KTP):
                                                 dataa.write('{0}Kartu Tanda Penduduk {0}'.format(' '*25)+'\n')
                                                 dataa.write('{0}'.format('-'*70)+'\n')
                                                 dataa.write('|{0}|'.format(' '*68)+'\n')        
-                                                dataa.write('|{0}{1}{0}|'.format(' '*a,i[7])+'\n')        
-                                                dataa.write('|{0}{1}{0}|'.format(' '*b,i[20])+'\n')
+                                                dataa.write('|{0}{1}{0}|'.format(' '*a,provinsi)+'\n')        
+                                                dataa.write('|{0}{1}{0}|'.format(' '*b,namakota)+'\n')
                                                 dataa.write('|{0}|'.format(' '*68)+'\n')
-                                                dataa.write("{0}{1}|".format(i[1],' '*int(69-int(len(i[1]))))+'\n')
+                                                dataa.write("{0}{1}|".format(nik,' '*int(69-int(len(nik))))+'\n')
                                                 dataa.write('|{0}------------  |'.format(' '*54)+'\n')    
-                                                dataa.write("{0}{1}|          |  |".format(i[1],' '*int(55-int(len(i[1]))))+'\n') 
+                                                dataa.write("{0}{1}|          |  |".format(nik,' '*int(55-int(len(nik))))+'\n') 
                                                 dataa.write("{0}{1}|          |  |".format(ttl,' '*int(55-int(len(ttl))))+'\n')     
-                                                dataa.write('{0}{1}{2}|          |  |'.format(i[5],i[6],' '*int(55-int(jekgol)))+'\n')     
-                                                dataa.write("{0}{1}|          |  |".format(i[14],' '*int(55-int(len(i[14]))))+'\n')   
+                                                dataa.write('{0}{1}{2}|          |  |'.format(jeniskelamin,golongandarah,' '*int(55-int(jekgol)))+'\n')     
+                                                dataa.write("{0}{1}|          |  |".format(alamat,' '*int(55-int(len(alamat))))+'\n')   
                                                 dataa.write('{0}{1}|   FOTO   |  |'.format(rtrw,' '*int(55-int(len(rtrw))))+'\n')  
-                                                dataa.write('{0}{1}|          |  |'.format(i[11],' '*int(55-int(len(i[11]))))+'\n')  
-                                                dataa.write('{0}{1}|          |  |'.format(i[10],' '*int(55-int(len(i[10]))))+'\n')
-                                                dataa.write("{0}{1}|          |  |".format(i[15],' '*int(55-int(len(i[15]))))+'\n')
-                                                dataa.write("{0}{1}------------  |".format(i[16],' '*int(55-int(len(i[16]))))+'\n')
-                                                dataa.write("{0}{1}{2}{3}{2}|".format(i[17],' '*int(53-int(len(i[17]))),' '*c,i[9])+'\n') 
-                                                dataa.write("{0}{1} {2}   |".format(i[18],' '*int(55-int(len(i[18]))),i[0])+'\n')
-                                                dataa.write("{0}{1}|".format(i[19],' '*int(69-int(len(i[19]))))+'\n')
+                                                dataa.write('{0}{1}|          |  |'.format(kelurahan,' '*int(55-int(len(kelurahan))))+'\n')  
+                                                dataa.write('{0}{1}|          |  |'.format(kecamatan,' '*int(55-int(len(kecamatan))))+'\n')
+                                                dataa.write("{0}{1}|          |  |".format(agama,' '*int(55-int(len(agama))))+'\n')
+                                                dataa.write("{0}{1}------------  |".format(status,' '*int(55-int(len(status))))+'\n')
+                                                dataa.write("{0}{1}{2}{3}{2}|".format(pekerjaan,' '*int(53-int(len(pekerjaan))),' '*c,namkot)+'\n') 
+                                                dataa.write("{0}{1} {2}   |".format(kewarganegaraan,' '*int(55-int(len(kewarganegaraan))),i[0])+'\n')
+                                                dataa.write("{0}{1}|".format(masaberlaku,' '*int(69-int(len(masaberlaku))))+'\n')
                                                 dataa.write('|{0}|'.format(' '*68)+'\n')
                                                 dataa.write('|{0}|'.format(' '*68)+'\n')
                                                 dataa.write('|{0}TTD       |'.format(' '*58)+'\n')
@@ -306,7 +306,7 @@ def mencetak(list_KTP):
                                         
 
                                 else:
-                                        print('Masukkan nomor kartu data E-KTP sesuai yang anda dapatkan!...')
+                                        print('Masukkan nomor kartu data E-KTP sesuai yang anda dapatkan! Atau mungkin anda telah menghapus data yang diinputkan')
                         except ValueError:
                                 print('Mohon untuk memasukkan nomor E-KTP dengan benar...')
 #4 FUGNSI INI UNTUK MENGHAPUS DATA E-KTP YANG SUDAH DI BUAT
@@ -320,7 +320,7 @@ def hapus_data(list_KTP):
                         if kartu_nomor == 1:
  
                                         keputusan = input('Apakah anda yakin ingin menghapus semua nomor kartu yang menyimpan data E-KTP anda? Ketik "iya" jika setuju dan ketik "tidak" jika tidak setuju')
-                                        if keputusan == ["iya","IYA","Iya","ya","YA","Ya"]:
+                                        if keputusan in ["iya","IYA","Iya","ya","YA","Ya"]:
                                                 list_KTP.clear()
                                                 print(f"Seluruh nomor kartu yang anda miliki untuk menyimpan data E-KTP anda sudah dihapus...")
                                                 break 
@@ -328,7 +328,7 @@ def hapus_data(list_KTP):
                                                 print('Program penghapusan opsi 1 dibatalkan...')
 
                         if kartu_nomor == 2:
-                                keputusan = input('Apakah anda yakin ingin menghapus semua nomor kartu yang menyimpan data E-KTP anda? Ketik "iya" jika setuju dan ketik "tidak" jika tidak setuju')
+                                keputusan = input('Apakah anda yakin ingin menghapus semua nomor kartu yang menyimpan data E-KTP anda? Ketik "iya" jika setuju dan ketik "tidak" jika tidak setuju \n')
                                 if keputusan == ["iya","IYA","Iya","ya","YA","Ya"]:
                                         try:
                                                 pilih_nomor = int(input('Masukkan nomor kartu data E-KTP yang ingin dihapus : '))

@@ -290,7 +290,6 @@ def hapus_data(list_KTP):
         list_KTP.clear()
         print("Data kartu dengan nomor " + str(kartu_nomor) + " telah dihapus", "\n")   
         
-        
 #5 UNTUK KELUAR DARI PROGRAM
 def program_selesai():
         while True: 

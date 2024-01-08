@@ -172,9 +172,9 @@ def input_ktp():
                         masaberlaku='{0}-{1}-{2}'.format(day,month,year)
                         break
         print()
-        ulang = str(input("Apakah data yang dimasukkan sudah sesuai? Ketik 'iya' jika sudah dan 'tidak' jika belum. \n"))
         while True:
-                if ulang in ["iya","IYA"]:
+                ulang = str(input("Apakah data yang dimasukkan sudah sesuai? Ketik 'iya' jika sudah dan 'tidak' jika belum. \n"))
+                if ulang in ["iya","IYA","Iya","ya","YA","Ya"]:
                         data_ktp_sementara = [hariini,nik,nama,tempatlahir,tanggallahir,jeniskelamin,golongandarah,provinsi,kota,namkot,kecamatan,kelurahan,rt,rw,alamat,agama,status,pekerjaan,kewarganegaraan,masaberlaku,namakota]
                         list_KTP.append(data_ktp_sementara)        
                         print("")
@@ -182,7 +182,8 @@ def input_ktp():
                         print("")
                         break
                 else:
-                        pass
+                        print('Silahkan masukkan data ktp lagi...')
+                pass
         return list_KTP
 
 #3 FUNGIS INI DIGUNAKAN UNTUK MENCETAK DATA KTP 

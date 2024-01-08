@@ -46,145 +46,146 @@ def input_ktp():
                         break
         hariini='{0}-{1}-{2}'.format(day,month,year)
         
-        print("\nSilakan input data E-KTP dengan benar")
         while True:
-                try:
-                        nik=int(input('NIK \t\t\t   : '))
-                        digit=len(str(abs(nik)))
-                        while (digit!=16): 
-                                print ('NIK salah, mohon masukkan 16 digit angka NIK dengan benar')
+                print("\nSilakan input data E-KTP dengan benar")
+                while True:
+                        try:
                                 nik=int(input('NIK \t\t\t   : '))
                                 digit=len(str(abs(nik)))
-                        break
-                except ValueError:
-                        print('NIK salah, mohon masukkan 16 digit angka NIK dengan benar')
-                        pass
+                                while (digit!=16): 
+                                        print ('NIK salah, mohon masukkan 16 digit angka NIK dengan benar')
+                                        nik=int(input('NIK \t\t\t   : '))
+                                        digit=len(str(abs(nik)))
+                                break
+                        except ValueError:
+                                print('NIK salah, mohon masukkan 16 digit angka NIK dengan benar')
+                                pass
 
-        nama=str(input('Nama Lengkap \t\t   : '))
-        nama=nama.upper()
-        tempatlahir=str(input('Tempat Lahir \t\t   : '))
-        tempatlahir=tempatlahir.upper()
-        
-        while True:
-                try:
-                        tanggallahir=input('Tanggal Lahir (DDMMYYYY)   : ')
-                        tanggallahir=datetime.datetime.strptime(tanggallahir, '%d%m%Y')
-                        hari=tanggallahir.day
-                        bulan=tanggallahir.month
-                        tahun=tanggallahir.year
-        
-                        while True:     
-                                if hari<10:
-                                        hari='0{0}'.format(hari)
-                                        if bulan<10:
-                                                 bulan='0{0}'.format(bulan)
-                                                 break
-                                        else:
-                                                bulan=bulan
-                                        break
-                                
-                                else:
-                                        if bulan<10:
-                                                bulan='0{0}'.format(bulan)
-                                                break
-                                
-                                        else:
-                                                bulan=bulan
-                                                break
-                                        hari=hari
-                                        break
-                        tanggallahir='{0}-{1}-{2}'.format(hari,bulan,tahun)
-                        break
-                except ValueError:
-                        print('Mohon masukkan angka yang sesuai dengan tanggal lahir anda')
-                        
-        while True:
-                jeniskelamin=str(input('Jenis Kelamin (pilih L/P)  : '))
-                if jeniskelamin in ['L', 'l']:
-                        jeniskelamin='LAKI-LAKI'
-                        break
-                elif jeniskelamin in ['P','p']:
-                        jeniskelamin='PEREMPUAN'
-                        break
-                print('Maaf hanya menerima laki-laki atau perempuan. Silahkan masukkan ulang (L/P)')
-        while True:
-                print(f'Pilih golongan darah anda\nO\nA\nB\nAB')
-                golongandarah=str(input('Golongan Darah \t\t   : '))
-                if golongandarah in ['A', 'a']:
-                      golongandarah='A'
-                      break
-                elif golongandarah in ['B','b']:
-                      golongandarah='B'
-                      break
-                elif golongandarah in ['O','o']:
-                        golongandarah='O'
-                        break
-                elif golongandarah in ['AB','Ab','aB','ab']:
-                        golongandarah='AB'
-                        break
-                print('Golongan Darah tidak ditemukan. Silahkan masukkan ulang. Contoh, Golongan Darah : O')
-        provinsi=str(input('Provinsi \t\t   : '))
-        provinsi=provinsi.upper()
-        while True:
-                        kota=str(input('Kabupaten/Kota (pilih 1/2) : '))
-                        if kota=='1':
-                                kota='KABUPATEN'
-                                namakota=str(input('Nama Kabupaten \t\t   : '))
-                                namakota=namakota.upper()
-                                namkot=namakota
-                                break
-                        elif kota=='2':
-                                kota='KOTA'
-                                namakota=str(input('Nama Kota \t\t   : '))
-                                namakota=namakota.upper()
-                                namkot=namakota
-                                break
-                        print('Pilih Kabupaten atau Kota dengan benar. Silahkan masukkan ulang (1/2)')
-        kecamatan=str(input('Kecamatan \t\t   : '))
-        kecamatan=kecamatan.upper()
-        kelurahan=str(input('Kelurahan/Desa \t\t   : '))
-        kelurahan=kelurahan.upper()    
-        while True:
-                rt=input('RT (dalam angka) \t   : ')
-                rw=input('RW (dalam angka) \t   : ')
-                if len(rt) < 3 or len(rw) < 3:
-                        print('Anda harus memasukkan 3 digit atau lebih untuk rt dan rw.')
-                else:
-                        break
+                nama=str(input('Nama Lengkap \t\t   : '))
+                nama=nama.upper()
+                tempatlahir=str(input('Tempat Lahir \t\t   : '))
+                tempatlahir=tempatlahir.upper()
                 
-        alamat=str(input('Alamat \t\t\t   : '))
-        alamat=alamat.upper()
-        agama=str(input('Agama \t\t\t   : '))
-        agama=agama.upper()
-        status=str(input('Status Perkawinan \t   : '))
-        status=status.upper()
-        pekerjaan=str(input('Pekerjaan \t\t   : '))
-        pekerjaan=pekerjaan.upper()
-        while True:
-                kewarganegaraan=str(input('Kewarganegaraan \t   : '))
-                if kewarganegaraan in ['Indonesia','indonesia','INDONESIA','wni','WNI']:
-                        kewarganegaraan='WNI'
-                        masaberlaku='SEUMUR HIDUP'
-                        break
-                else :
-                        kewarganegaraan=kewarganegaraan.upper()
-                        year+=5
-                        masaberlaku='{0}-{1}-{2}'.format(day,month,year)
-                        break
-        print()
-        while True:
-                ulang = str(input("Apakah data yang dimasukkan sudah sesuai? Ketik 'iya' jika sudah dan 'tidak' jika belum. \n"))
-                if ulang in ["iya","IYA","Iya","ya","YA","Ya"]:
-                        data_ktp_sementara = [hariini,nik,nama,tempatlahir,tanggallahir,jeniskelamin,golongandarah,provinsi,kota,namkot,kecamatan,kelurahan,rt,rw,alamat,agama,status,pekerjaan,kewarganegaraan,masaberlaku,namakota]
-                        list_KTP.append(data_ktp_sementara)        
-                        print("")
-                        print(("Anda mendapatkan kartu nomor " + str(len(list_KTP))))
-                        print("")
-                        break
-                else:
-                        print('Silahkan masukkan data ktp lagi...')
-                pass
-        return list_KTP
+                while True:
+                        try:
+                                tanggallahir=input('Tanggal Lahir (DDMMYYYY)   : ')
+                                tanggallahir=datetime.datetime.strptime(tanggallahir, '%d%m%Y')
+                                hari=tanggallahir.day
+                                bulan=tanggallahir.month
+                                tahun=tanggallahir.year
+                
+                                while True:     
+                                        if hari<10:
+                                                hari='0{0}'.format(hari)
+                                                if bulan<10:
+                                                        bulan='0{0}'.format(bulan)
+                                                        break
+                                                else:
+                                                        bulan=bulan
+                                                break
+                                        
+                                        else:
+                                                if bulan<10:
+                                                        bulan='0{0}'.format(bulan)
+                                                        break
+                                        
+                                                else:
+                                                        bulan=bulan
+                                                        break
+                                                hari=hari
+                                                break
+                                tanggallahir='{0}-{1}-{2}'.format(hari,bulan,tahun)
+                                break
+                        except ValueError:
+                                print('Mohon masukkan angka yang sesuai dengan tanggal lahir anda')
+                                
+                while True:
+                        jeniskelamin=str(input('Jenis Kelamin (pilih L/P)  : '))
+                        if jeniskelamin in ['L', 'l']:
+                                jeniskelamin='LAKI-LAKI'
+                                break
+                        elif jeniskelamin in ['P','p']:
+                                jeniskelamin='PEREMPUAN'
+                                break
+                        print('Maaf hanya menerima laki-laki atau perempuan. Silahkan masukkan ulang (L/P)')
+                while True:
+                        print(f'Pilih golongan darah anda\nO\nA\nB\nAB')
+                        golongandarah=str(input('Golongan Darah \t\t   : '))
+                        if golongandarah in ['A', 'a']:
+                                golongandarah='A'
+                                break
+                        elif golongandarah in ['B','b']:
+                                golongandarah='B'
+                                break
+                        elif golongandarah in ['O','o']:
+                                golongandarah='O'
+                                break
+                        elif golongandarah in ['AB','Ab','aB','ab']:
+                                golongandarah='AB'
+                                break
+                        print('Golongan Darah tidak ditemukan. Silahkan masukkan ulang. Contoh, Golongan Darah : O')
+                provinsi=str(input('Provinsi \t\t   : '))
+                provinsi=provinsi.upper()
+                while True:
+                                kota=str(input('Kabupaten/Kota (pilih 1/2) : '))
+                                if kota=='1':
+                                        kota='KABUPATEN'
+                                        namakota=str(input('Nama Kabupaten \t\t   : '))
+                                        namakota=namakota.upper()
+                                        namkot=namakota
+                                        break
+                                elif kota=='2':
+                                        kota='KOTA'
+                                        namakota=str(input('Nama Kota \t\t   : '))
+                                        namakota=namakota.upper()
+                                        namkot=namakota
+                                        break
+                                print('Pilih Kabupaten atau Kota dengan benar. Silahkan masukkan ulang (1/2)')
+                kecamatan=str(input('Kecamatan \t\t   : '))
+                kecamatan=kecamatan.upper()
+                kelurahan=str(input('Kelurahan/Desa \t\t   : '))
+                kelurahan=kelurahan.upper()    
+                while True:
+                        rt=input('RT (dalam angka) \t   : ')
+                        rw=input('RW (dalam angka) \t   : ')
+                        if len(rt) < 3 or len(rw) < 3:
+                                print('Anda harus memasukkan 3 digit atau lebih untuk rt dan rw.')
+                        else:
+                                break
+                        
+                alamat=str(input('Alamat \t\t\t   : '))
+                alamat=alamat.upper()
+                agama=str(input('Agama \t\t\t   : '))
+                agama=agama.upper()
+                status=str(input('Status Perkawinan \t   : '))
+                status=status.upper()
+                pekerjaan=str(input('Pekerjaan \t\t   : '))
+                pekerjaan=pekerjaan.upper()
+                while True:
+                        kewarganegaraan=str(input('Kewarganegaraan \t   : '))
+                        if kewarganegaraan in ['Indonesia','indonesia','INDONESIA','wni','WNI']:
+                                kewarganegaraan='WNI'
+                                masaberlaku='SEUMUR HIDUP'
+                                break
+                        else :
+                                kewarganegaraan=kewarganegaraan.upper()
+                                year+=5
+                                masaberlaku='{0}-{1}-{2}'.format(day,month,year)
+                                break
+                print()
+                while True:
+                        ulang = str(input("Apakah data yang dimasukkan sudah sesuai? Ketik 'iya' jika sudah dan 'tidak' jika belum. \n"))
+                        if ulang in ["iya","IYA","Iya","ya","YA","Ya"]:
+                                data_ktp_sementara = [hariini,nik,nama,tempatlahir,tanggallahir,jeniskelamin,golongandarah,provinsi,kota,namkot,kecamatan,kelurahan,rt,rw,alamat,agama,status,pekerjaan,kewarganegaraan,masaberlaku,namakota]
+                                list_KTP.append(data_ktp_sementara)        
+                                print("")
+                                print(("Anda mendapatkan kartu nomor " + str(len(list_KTP))))
+                                print("")
+                                break
+                        else:
+                                print('Silahkan masukkan data ktp lagi...')
+                        pass
+                return list_KTP
 
 #3 FUNGIS INI DIGUNAKAN UNTUK MENCETAK DATA KTP 
 def mencetak(list_KTP):

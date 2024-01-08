@@ -13,7 +13,7 @@ while True:
             menu()
             pilihan = int(input('Masukkan sesuai angka untuk program yang diinginkan : '))
             if pilihan == 1:
-                list_KTP, nik, nama, tempatlahir, tanggallahir, jeniskelamin, golongandarah, provinsi, kota, namakota, kecamatan, kelurahan, rt, rw, alamat, agama, status, pekerjaan, kewarganegaraan,masaberlaku,hariini,namkot  = input_ktp()
+                list_KTP = input_ktp()
                 pass
             if pilihan == 2:
                 try:

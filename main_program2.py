@@ -17,7 +17,7 @@ while True:
                 pass
             if pilihan == 2:
                 try:
-                    mencetak(nik, nama, tempatlahir, tanggallahir, jeniskelamin, golongandarah, provinsi, kota, namakota, kecamatan, kelurahan, rt, rw, alamat, agama, status, pekerjaan, kewarganegaraan,masaberlaku,hariini,namkot)
+                    mencetak(list_KTP)
                 except NameError:
                     print(f"\n\n{'='*75}")
                     print('Maaf, anda harus mengisikan data E-KTP pada pilihan pertama terlebih dahulu')
@@ -25,7 +25,7 @@ while True:
                 pass
             if pilihan == 3:
                 try:
-                    list_KTP,nik, nama, tempatlahir, tanggallahir, jeniskelamin, golongandarah, provinsi, kota, namakota, kecamatan, kelurahan, rt, rw, alamat, agama, status, pekerjaan, kewarganegaraan,masaberlaku,hariini,namkot=hapus_data(list_KTP,nik, nama, tempatlahir, tanggallahir, jeniskelamin, golongandarah, provinsi, kota, namakota, kecamatan, kelurahan, rt, rw, alamat, agama, status, pekerjaan, kewarganegaraan,masaberlaku,hariini,namkot)
+                    hapus_data(list_KTP)
                 except NameError:
                     print(f"\n\n{'='*106}")
                     print('Maaf, anda belum mengisikan data E-KTP pada pilihan pertama. Atau anda telah berhasil menghapus data E-KTP')

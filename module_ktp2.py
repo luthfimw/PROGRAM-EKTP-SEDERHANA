@@ -197,7 +197,7 @@ def input_ktp():
 def mencetak(list_KTP):
                 for i in list_KTP:
                         print("")
-                        kartu_nomor = int(input("\nMasukkan nomor kartu Anda : "))
+                        kartu_nomor = int(input("\nMasukkan nomor kartu yang ingin diceetak : "))
                         print("","\nTampilkan data kartu dengan nomor", kartu_nomor, "... \n")
                         print('{0}Kartu Tanda Penduduk {0}'.format(' '*27))
                         print('{0}'.format('-'*70))
@@ -244,7 +244,7 @@ def mencetak(list_KTP):
                         print('{0}{1}|          |  |'.format(i[10],' '*int(55-int(len(i[10])))))
                         i[15]="|  Agama             : {0}".format(i[15])
                         print("{0}{1}|          |  |".format(i[15],' '*int(55-int(len(i[15])))))
-                        i[16]="|  Statu Perkawinan : {0}".format(i[16])
+                        i[16]="|  Status Perkawinan : {0}".format(i[16])
                         print("{0}{1}------------  |".format(i[16],' '*int(55-int(len(i[16])))))
                         i[17]="|  Pekerjaan         : {0}".format(i[17])
                         while True:
@@ -256,7 +256,7 @@ def mencetak(list_KTP):
                                         c=int((16-int(len(i[9])))/2)
                                         break
                         print("{0}{1}{2}{3}{2}|".format(i[17],' '*int(53-int(len(i[17]))),' '*c,i[9]))
-                        i[18]="|  Kewarganegaraa   : {0}".format(i[18])
+                        i[18]="|  Kewarganegaraan   : {0}".format(i[18])
                         print("{0}{1} {2}   |".format(i[18],' '*int(55-int(len(i[18]))),i[0]))
                         i[19]="|  Berlaku Hingga    : {0}".format(i[19])
                         print("{0}{1}|".format(i[19],' '*int(69-int(len(i[19])))))

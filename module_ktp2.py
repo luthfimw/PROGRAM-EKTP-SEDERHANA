@@ -174,13 +174,15 @@ def input_ktp():
         print()
         ulang = str(input("Apakah data yang dimasukkan sudah sesuai? Ketik 'iya' jika sudah dan 'tidak' jika belum. \n"))
         while True:
-                if ulang == "iya":
-                        data_ktp_sementara = [hariini,nik,nama,tempatlahir,tanggallahir,jeniskelamin,golongandarah,provinsi,kota,namkot,kecamatan,kelurahan,rt,rw,alamat,agama,status,pekerjaan,kewarganegaraan,masaberlaku]
+                if ulang in ["iya","IYA"]:
+                        data_ktp_sementara = [hariini,nik,nama,tempatlahir,tanggallahir,jeniskelamin,golongandarah,provinsi,kota,namkot,kecamatan,kelurahan,rt,rw,alamat,agama,status,pekerjaan,kewarganegaraan,masaberlaku,namakota]
                         list_KTP.append(data_ktp_sementara)        
                         print("")
                         print(("Anda mendapatkan kartu nomor " + str(len(list_KTP))))
                         print("")
                         break
+                else:
+                        pass
         return list_KTP
 
 #3 FUNGIS INI DIGUNAKAN UNTUK MENCETAK DATA KTP 
@@ -201,16 +203,16 @@ def mencetak(list_KTP):
                                 a=int((68-int(len(list_KTP[0][7])))/2)
                                 break
                 print('|{0}{1}{0}|'.format(' '*a,list_KTP[0][7]))
-                namakota='{0} {1}'.format(list_KTP[0][8],namakota)
+                list_KTP[0][20]='{0} {1}'.format(list_KTP[0][8],list_KTP[0][20])
                 while True:
-                            if (int(len(namakota))%2==1):
-                                namakota='{0} '.format(namakota)
-                                b=int((68-int(len(namakota)))/2)
+                            if (int(len(list_KTP[0][20]))%2==1):
+                                list_KTP[0][20]='{0} '.format(list_KTP[0][20])
+                                b=int((68-int(len(list_KTP[0][20])))/2)
                                 break
                             else:
-                                b=int((68-int(len(namakota)))/2)
+                                b=int((68-int(len(list_KTP[0][20])))/2)
                                 break
-                print('|{0}{1}{0}|'.format(' '*b,namakota))
+                print('|{0}{1}{0}|'.format(' '*b,list_KTP[0][20]))
                 print('|{0}|'.format(' '*68))
                 list_KTP[0][1]="|  NIK               : {0}".format(list_KTP[0][1])
                 print("{0}{1}|".format(list_KTP[0][1],' '*int(69-int(len(list_KTP[0][1])))))
@@ -260,7 +262,7 @@ def mencetak(list_KTP):
                 dataa.write('{0}'.format('-'*70)+'\n')
                 dataa.write('|{0}|'.format(' '*68)+'\n')        
                 dataa.write('|{0}{1}{0}|'.format(' '*a,list_KTP[0][7])+'\n')        
-                dataa.write('|{0}{1}{0}|'.format(' '*b,namakota)+'\n')
+                dataa.write('|{0}{1}{0}|'.format(' '*b,list_KTP[0][20])+'\n')
                 dataa.write('|{0}|'.format(' '*68)+'\n')
                 dataa.write("{0}{1}|".format(list_KTP[0][1],' '*int(69-int(len(list_KTP[0][1]))))+'\n')
                 dataa.write('|{0}------------  |'.format(' '*54)+'\n')    

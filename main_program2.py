@@ -28,8 +28,10 @@ while True:
                     hapus_data(list_KTP)
                 except NameError:
                     print(f"\n\n{'='*106}")
-                    print('Maaf, anda belum mengisikan data E-KTP pada pilihan pertama. Atau anda telah berhasil menghapus data E-KTP')
+                    print('Maaf, anda belum mengisikan data E-KTP pada pilihan pertama.')
                     print(f"{'='*106}\n\n")
+                except IndexError:
+                    print(f'Data anda telah di hapus, silahkan masukkan ulang pada pilihan 1')
                 pass
             if pilihan == 4:
                 program_selesai()

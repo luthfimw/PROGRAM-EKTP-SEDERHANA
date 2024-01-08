@@ -283,36 +283,12 @@ def mencetak(list_KTP):
                 dataa.write('-'*70+'\n')
         
 #4 FUGNSI INI UNTUK MENGHAPUS DATA E-KTP YANG SUDAH DI BUAT
-def hapus_data(list_KTP,nik, nama, tempatlahir, tanggallahir, jeniskelamin, golongandarah, provinsi, kota, namakota, kecamatan, kelurahan, rt, rw, alamat, agama, status, pekerjaan, kewarganegaraan, masaberlaku, hariini,namkot):
+def hapus_data(list_KTP):
         kartu_nomor = int(input("\nMasukkan nomor kartu anda : "))
         print("")
         # list_KTP[kartu_nomor-1] = None
         list_KTP.clear()
-        print("Data kartu dengan nomor " + str(kartu_nomor) + " telah dihapus", "\n")
-        del nik
-        del nama
-        del tempatlahir
-        del tanggallahir
-        del jeniskelamin
-        del golongandarah
-        del provinsi
-        del golongandarah
-        del kota
-        del namakota
-        del kecamatan
-        del kelurahan
-        del rt
-        del rw
-        del alamat
-        del agama
-        del status
-        del pekerjaan
-        del kewarganegaraan
-        del masaberlaku
-        del hariini
-        del namkot
-        return list_KTP, nik, nama, tempatlahir, tanggallahir, jeniskelamin, golongandarah, provinsi, kota, namakota, kecamatan, kelurahan, rt, rw, alamat, agama, status, pekerjaan, kewarganegaraan,masaberlaku,hariini,namkot
-        
+        print("Data kartu dengan nomor " + str(kartu_nomor) + " telah dihapus", "\n")   
         
         
 #5 UNTUK KELUAR DARI PROGRAM

@@ -46,7 +46,7 @@ def input_ktp():
                         break
         hariini='{0}-{1}-{2}'.format(day,month,year)
         
-        while True:
+        while True: #while true utama, PENTING UNTUK AKHIR 
                 print("\nSilakan input data E-KTP dengan benar")
                 while True:
                         try:
@@ -175,7 +175,7 @@ def input_ktp():
                 print()
                 while True:
                         ulang = str(input("Apakah data yang dimasukkan sudah sesuai? Ketik 'iya' jika sudah dan 'tidak' jika belum. \n"))
-                        if ulang in ["iya","IYA","Iya","ya","YA","Ya"]:
+                        if ulang in ["iya","IYA","Iya","ya","YA","Ya"]: #jika memilih 'iya' , maka data akan disimpan dalam list, jika kemudian ingin menambahkan data lagi, dia bisa menyimpan data baru tersebut di dalam nesting list.
                                 data_ktp_sementara = [hariini,nik,nama,tempatlahir,tanggallahir,jeniskelamin,golongandarah,provinsi,kota,namkot,kecamatan,kelurahan,rt,rw,alamat,agama,status,pekerjaan,kewarganegaraan,masaberlaku,namakota]
                                 list_KTP.append(data_ktp_sementara)        
                                 print("")
@@ -183,15 +183,15 @@ def input_ktp():
                                 print("")
                                 break
                                 
-                        elif ulang in ["tidak","Tidak","TIDAK","TDK","tdk","Tdk"]:
-                                print('Silahkan masukkan data ktp lagi...')
+                        elif ulang in ["tidak","Tidak","TIDAK","TDK","tdk","Tdk"]: #jika memilih 'tidak', otomatis data tidak akan tersimpan dan jika mengisi lagi maka data sebelumnya akan ditimpa.
+                                print('\nSilahkan masukkan data ktp lagi...')
                                 break
-                pilihan_loop_utama = input('Apakah anda ingin memasukkan data ktp lainnya atau ingin memasukkan ulang? Ketik "iya" jika setuju atau ketik "tidak" jika tidak setuju.')
+                pilihan_loop_utama = input('Apakah anda ingin memasukkan data ktp lainnya atau ingin memasukkan ulang? Ketik "iya" jika setuju atau ketik "tidak" jika tidak setuju... \n')
                 if pilihan_loop_utama in ["tidak","Tidak","TIDAK","TDK","tdk","Tdk"]:
-                        break
+                        break #jika memilih ini, maka program while true utama akan di putus dan meretrun list_KTP
                 else:
-                        pass
-                return list_KTP
+                        pass #pass disini akan mengembalikan while true ke atas dan menjalankan program dari awal lagi pada input data ktp.
+        return list_KTP #menyimpan data yang telah diinputkan.
 
 #3 FUNGIS INI DIGUNAKAN UNTUK MENCETAK DATA KTP 
 def mencetak(list_KTP):

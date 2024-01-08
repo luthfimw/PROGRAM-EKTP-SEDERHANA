@@ -31,9 +31,9 @@ while True:
                 try:
                     hapus_data(list_KTP)
                 except NameError:
-                    print(f"\n\n{'='*106}")
+                    print(f"\n\n{'='*60}")
                     print('Maaf, anda belum mengisikan data E-KTP pada pilihan pertama.')
-                    print(f"{'='*106}\n\n")
+                    print(f"{'='*60}\n\n")
 
                 pass
             if pilihan == 4:

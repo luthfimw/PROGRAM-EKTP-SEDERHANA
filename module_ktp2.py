@@ -231,11 +231,11 @@ def mencetak(list_KTP):
                 print('{0}{1}|          |  |'.format(list_KTP[0][11],' '*int(55-int(len(list_KTP[0][11])))))
                 list_KTP[0][10]="|      Kecamatan     : {0}".format(list_KTP[0][10])
                 print('{0}{1}|          |  |'.format(list_KTP[0][10],' '*int(55-int(len(list_KTP[0][10])))))
-                agama="|  Agama             : {0}".format(agama)
-                print("{0}{1}|          |  |".format(agama,' '*int(55-int(len(agama)))))
-                status="|  Status Perkawinan : {0}".format(status)
-                print("{0}{1}------------  |".format(status,' '*int(55-int(len(status)))))
-                pekerjaan="|  Pekerjaan         : {0}".format(pekerjaan)
+                list_KTP[0][15]="|  Agama             : {0}".format(list_KTP[0][15])
+                print("{0}{1}|          |  |".format(list_KTP[0][15],' '*int(55-int(len(list_KTP[0][15])))))
+                list_KTP[0][16]="|  Statu Perkawinan : {0}".format(list_KTP[0][16])
+                print("{0}{1}------------  |".format(list_KTP[0][16],' '*int(55-int(len(list_KTP[0][16])))))
+                list_KTP[0][17]="|  Pekerjaan         : {0}".format(list_KTP[0][17])
                 while True:
                             if (int(len(namkot))%2==1):
                                 namkot='{0} '.format(namkot)
@@ -244,7 +244,7 @@ def mencetak(list_KTP):
                             else:
                                 c=int((16-int(len(namkot)))/2)
                                 break
-                print("{0}{1}{2}{3}{2}|".format(pekerjaan,' '*int(53-int(len(pekerjaan))),' '*c,namkot))
+                print("{0}{1}{2}{3}{2}|".format(list_KTP[0][17],' '*int(53-int(len(list_KTP[0][17]))),' '*c,namkot))
                 kewarganegaraan="|  Kewarganegaraan   : {0}".format(kewarganegaraan)
                 print("{0}{1} {2}   |".format(kewarganegaraan,' '*int(55-int(len(kewarganegaraan))),hariini))
                 masaberlaku="|  Berlaku Hingga    : {0}".format(masaberlaku)
@@ -271,9 +271,9 @@ def mencetak(list_KTP):
                 dataa.write('{0}{1}|   FOTO   |  |'.format(rtrw,' '*int(55-int(len(rtrw))))+'\n')  
                 dataa.write('{0}{1}|          |  |'.format(list_KTP[0][11],' '*int(55-int(len(list_KTP[0][11]))))+'\n')  
                 dataa.write('{0}{1}|          |  |'.format(list_KTP[0][10],' '*int(55-int(len(list_KTP[0][10]))))+'\n')
-                dataa.write("{0}{1}|          |  |".format(agama,' '*int(55-int(len(agama))))+'\n')
-                dataa.write("{0}{1}------------  |".format(status,' '*int(55-int(len(status))))+'\n')
-                dataa.write("{0}{1}{2}{3}{2}|".format(pekerjaan,' '*int(53-int(len(pekerjaan))),' '*c,namkot)+'\n') 
+                dataa.write("{0}{1}|          |  |".format(list_KTP[0][15],' '*int(55-int(len(list_KTP[0][15]))))+'\n')
+                dataa.write("{0}{1}------------  |".format(list_KTP[0][16],' '*int(55-int(len(list_KTP[0][16]))))+'\n')
+                dataa.write("{0}{1}{2}{3}{2}|".format(list_KTP[0][17],' '*int(53-int(len(list_KTP[0][17]))),' '*c,namkot)+'\n') 
                 dataa.write("{0}{1} {2}   |".format(kewarganegaraan,' '*int(55-int(len(kewarganegaraan))),hariini)+'\n')
                 dataa.write("{0}{1}|".format(masaberlaku,' '*int(69-int(len(masaberlaku))))+'\n')
                 dataa.write('|{0}|'.format(' '*68)+'\n')

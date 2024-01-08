@@ -15,7 +15,7 @@ while True:
             for i in baru2:
                     print(f'index pertama : {i[0]}')
                     print(f'index kedua : {i[1]}')
-                    break
+                    break #break akan selalu memutus while true terdekat
             else:
                     print('masukkan sesuai nomor kartu anda')
         else: 

@@ -14,7 +14,7 @@ while True:
         putus = input('putus loop ke 2 : ')
         if putus in ['ya','YA','IYA','iya','Iya','Ya']:
             print('keluar dari loop 2')
-            break
+            break #break akan memutus while true terdekat
         else:
             print('loop kedua diulang...')
     putus = input('putus loop ke 1 : ')

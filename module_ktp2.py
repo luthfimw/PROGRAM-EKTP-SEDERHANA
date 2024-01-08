@@ -298,10 +298,12 @@ def mencetak(list_KTP):
                                                 dataa.write('|{0}TTD       |'.format(' '*58)+'\n')
                                                 dataa.write('|{0}|'.format(' '*68)+'\n')
                                                 dataa.write('-'*70+'\n')
+                                        
                                         ulang = str(input("Apakah anda ingin mencetak nomor kartu lainnya? Ketik 'iya' jika sudah dan 'tidak' jika belum. \n"))
                                         if ulang in ["tidak","Tidak","TIDAK","TDK","tdk","Tdk"]: 
                                                 print('Program mencetak data E-KTP dihentikan...\n')
                                                 break
+                                        
 
                                 else:
                                         print('Masukkan nomor kartu data E-KTP sesuai yang anda dapatkan!...')

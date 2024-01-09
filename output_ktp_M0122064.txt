@@ -1029,3 +1029,278 @@
 |                                                          TTD       |
 |                                                                    |
 ----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                           PROVINSI DSAAS                           |
+|                           KABUPATEN DAS                           |
+|                                                                    |
+|  NIK               : 1212121212121212                              |
+|                                                      ------------  |
+|  NIK               : 1212121212121212                |          |  |
+|  Tempat/Tgl Lahir  : ASD, 12-11-2121                 |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : SDA                             |          |  |
+|      RT/RW         : 121/121                         |   FOTO   |  |
+|      Kel/Desa      : AD                              |          |  |
+|      Kecamatan     : ASDA                            |          |  |
+|  Agama             : ADA                             |          |  |
+|  Status Perkawinan : DAAS                            ------------  |
+|  Pekerjaan         : ADS                                 DAS       |
+|  Kewarganegaraan   : ADS                              09-01-2024   |
+|  Berlaku Hingga    : 09-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI O                             |
+|                               KOTA L                               |
+|                                                                    |
+|  NIK               : 1212121212121212                              |
+|                                                      ------------  |
+|  NIK               : 1212121212121212                |          |  |
+|  Tempat/Tgl Lahir  : L, 12-12-1212                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 123/123                         |   FOTO   |  |
+|      Kel/Desa      : L                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                    L        |
+|  Kewarganegaraan   : L                                09-01-2024   |
+|  Berlaku Hingga    : 09-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                           PROVINSI AJSA                            |
+|                           KABUPATEN ASA                           |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-12-1111           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : SASA                            |          |  |
+|      RT/RW         : 121/121                         |   FOTO   |  |
+|      Kel/Desa      : ASA                             |          |  |
+|      Kecamatan     : AKSA                            |          |  |
+|  Agama             : ASAS                            |          |  |
+|  Status Perkawinan : ASA                             ------------  |
+|  Pekerjaan         : A                                   ASA       |
+|  Kewarganegaraan   : WNI                              09-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                            |
+|                                                                    |
+|  NIK               : 2121212121212121                              |
+|                                                      ------------  |
+|  NIK               : 2121212121212121                |          |  |
+|  Tempat/Tgl Lahir  : L, 12-12-1111                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 111/111                         |   FOTO   |  |
+|      Kel/Desa      : L                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                    L        |
+|  Kewarganegaraan   : L                                09-01-2024   |
+|  Berlaku Hingga    : 09-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                             |
+|                                                                    |
+|  NIK               : 2121212121212121                              |
+|                                                      ------------  |
+|  NIK               : 2121212121212121                |          |  |
+|  Tempat/Tgl Lahir  : L, 12-12-1111                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 111/111                         |   FOTO   |  |
+|      Kel/Desa      : L                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                    L        |
+|  Kewarganegaraan   : L                                09-01-2024   |
+|  Berlaku Hingga    : 09-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                            |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : L, 11-11-1111                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 111/111                         |   FOTO   |  |
+|      Kel/Desa      : L                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                    L        |
+|  Kewarganegaraan   : WNI                              09-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                            |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : L, 11-11-1111                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 111/111                         |   FOTO   |  |
+|      Kel/Desa      : L                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                    L        |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                            |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : 12, 12-12-1212                  |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 111/111                         |   FOTO   |  |
+|      Kel/Desa      : O                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                    L        |
+|  Kewarganegaraan   : L                                10-01-2024   |
+|  Berlaku Hingga    : 10-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                            |
+|                                                                    |
+|  NIK               : 1122112211221122                              |
+|                                                      ------------  |
+|  NIK               : 1122112211221122                |          |  |
+|  Tempat/Tgl Lahir  : L, 12-12-1111                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 111/111                         |   FOTO   |  |
+|      Kel/Desa      : L                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                    L        |
+|  Kewarganegaraan   : L                                10-01-2024   |
+|  Berlaku Hingga    : 10-01-2034                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                            |
+|                                                                    |
+|  NIK               : 1111222211112222                              |
+|                                                      ------------  |
+|  NIK               : 1111222211112222                |          |  |
+|  Tempat/Tgl Lahir  : L, 12-11-2222                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 121/121                         |   FOTO   |  |
+|      Kel/Desa      : L                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                    L        |
+|  Kewarganegaraan   : L                                10-01-2024   |
+|  Berlaku Hingga    : 10-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                            |
+|                                                                    |
+|  NIK               : 2222222222222222                              |
+|                                                      ------------  |
+|  NIK               : 2222222222222222                |          |  |
+|  Tempat/Tgl Lahir  : L, 12-12-1212                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 211/121                         |   FOTO   |  |
+|      Kel/Desa      :                                 |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             :                                 |          |  |
+|  Status Perkawinan :                                 ------------  |
+|  Pekerjaan         :                                      L        |
+|  Kewarganegaraan   :                                  10-01-2024   |
+|  Berlaku Hingga    : 10-01-2034                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------

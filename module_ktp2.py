@@ -214,8 +214,9 @@ def mencetak(list_KTP:list,no_kartu_user:list)->list:
                         try:
                                 
                                 if len(no_kartu_user)==0:
+                                        print('')
                                         print(f"{'='*54}")
-                                        print(f"\nNomor data E-KTP yang anda miliki sekarang : ", end='')
+                                        print(f"Nomor data E-KTP yang anda miliki sekarang : ", end='')
                                         print('tidak ada')
                                         print('Silakan masukkan ulang data E-KTP pada pilihan 1')
                                         print(f"{'='*54}")

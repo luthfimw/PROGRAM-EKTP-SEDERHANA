@@ -854,3 +854,178 @@
 |                                                          TTD       |
 |                                                                    |
 ----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                           KABUPATEN ASA                           |
+|                                                                    |
+|  NIK               : 2222222233333333                              |
+|                                                      ------------  |
+|  NIK               : 2222222233333333                |          |  |
+|  Tempat/Tgl Lahir  : JASJA, 12-12-1222               |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : KSAS                            |          |  |
+|      RT/RW         : 011/011                         |   FOTO   |  |
+|      Kel/Desa      : ASA                             |          |  |
+|      Kecamatan     : ASS                             |          |  |
+|  Agama             : KA                              |          |  |
+|  Status Perkawinan : SAKS                            ------------  |
+|  Pekerjaan         : KAS                                 ASA       |
+|  Kewarganegaraan   : ASD                              09-01-2024   |
+|  Berlaku Hingga    : 09-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                           PROVINSI JAWA                            |
+|                          KABUPATEN SADDS                          |
+|                                                                    |
+|  NIK               : 1111111122222222                              |
+|                                                      ------------  |
+|  NIK               : 1111111122222222                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-02-2022           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : JSA                             |          |  |
+|      RT/RW         : 002/002                         |   FOTO   |  |
+|      Kel/Desa      : JAJAE                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : ISADA                              SADDS      |
+|  Kewarganegaraan   : WNI                              09-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                           KABUPATEN ASA                            |
+|                                                                    |
+|  NIK               : 2222222233333333                              |
+|                                                      ------------  |
+|  NIK               : 2222222233333333                |          |  |
+|  Tempat/Tgl Lahir  : JASJA, 12-12-1222               |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : KSAS                            |          |  |
+|      RT/RW         : 011/011                         |   FOTO   |  |
+|      Kel/Desa      : ASA                             |          |  |
+|      Kecamatan     : ASS                             |          |  |
+|  Agama             : KA                              |          |  |
+|  Status Perkawinan : SAKS                            ------------  |
+|  Pekerjaan         : KAS                                 ASA       |
+|  Kewarganegaraan   : ASD                              09-01-2024   |
+|  Berlaku Hingga    : 09-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                          PROVINSI DSADGAS                          |
+|                          KABUPATEN DSADA                          |
+|                                                                    |
+|  NIK               : 1234567890123456                              |
+|                                                      ------------  |
+|  NIK               : 1234567890123456                |          |  |
+|  Tempat/Tgl Lahir  : DSAS, 12-11-2003                |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : DAS                             |          |  |
+|      RT/RW         : 121/212                         |   FOTO   |  |
+|      Kel/Desa      : DSAA                            |          |  |
+|      Kecamatan     : DSASA                           |          |  |
+|  Agama             : DASS                            |          |  |
+|  Status Perkawinan : SDSA                            ------------  |
+|  Pekerjaan         : ASD                                DSADA      |
+|  Kewarganegaraan   : WNI                              09-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                            PROVINSI SKA                            |
+|                           KABUPATEN LAS                           |
+|                                                                    |
+|  NIK               : 1111222211112222                              |
+|                                                      ------------  |
+|  NIK               : 1111222211112222                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 11-12-2022           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : SAS                             |          |  |
+|      RT/RW         : 111/111                         |   FOTO   |  |
+|      Kel/Desa      : SAS                             |          |  |
+|      Kecamatan     : SA                              |          |  |
+|  Agama             : ASA                             |          |  |
+|  Status Perkawinan : ASA                             ------------  |
+|  Pekerjaan         : ASA                                 LAS       |
+|  Kewarganegaraan   : ASA                              09-01-2024   |
+|  Berlaku Hingga    : 09-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                           PROVINSI SADA                            |
+|                             KOTA SADA                             |
+|                                                                    |
+|  NIK               : 1234567890123456                              |
+|                                                      ------------  |
+|  NIK               : 1234567890123456                |          |  |
+|  Tempat/Tgl Lahir  : ASA, 12-12-2003                 |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : ASAD                            |          |  |
+|      RT/RW         : 121/212                         |   FOTO   |  |
+|      Kel/Desa      : ASDA                            |          |  |
+|      Kecamatan     : ASD                             |          |  |
+|  Agama             : ADS                             |          |  |
+|  Status Perkawinan : SDA                             ------------  |
+|  Pekerjaan         : ADA                                 LAS       |
+|  Kewarganegaraan   : WNI                              09-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                           KABUPATEN SDA                           |
+|                                                                    |
+|  NIK               : 1111222233334444                              |
+|                                                      ------------  |
+|  NIK               : 1111222233334444                |          |  |
+|  Tempat/Tgl Lahir  : LADSA, 12-11-2002               |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : ASSDAD                          |          |  |
+|      RT/RW         : 121/2112                        |   FOTO   |  |
+|      Kel/Desa      : ASD                             |          |  |
+|      Kecamatan     : SDA                             |          |  |
+|  Agama             : LSDA                            |          |  |
+|  Status Perkawinan : LDAD                            ------------  |
+|  Pekerjaan         : LSA                                 SDA       |
+|  Kewarganegaraan   : LDA                              09-01-2024   |
+|  Berlaku Hingga    : 09-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------

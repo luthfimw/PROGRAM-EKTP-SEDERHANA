@@ -2,7 +2,7 @@
 Nama : Luthfi Mahendra Widiarto
 NIM  : M0122064
 File python ini merupakan file utama dari program KTP yang saya buat (M0122064).
-File ini harus dijalankan pada direktori yang sama pada direktori packagenya yaitu module_ktp.py
+File ini harus dijalankan pada direktori yang sama pada direktori packagenya yaitu package_ktp
 '''
 from module_ktp2 import * #mengimport module yang dibutuhkan dari package_ktp
 import os

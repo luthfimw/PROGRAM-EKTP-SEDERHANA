@@ -185,7 +185,7 @@ def input_ktp(list_KTP:list,no_kartu_user:list)->list:
                                 break
                                 
                         elif ulang in ["tidak","Tidak","TIDAK","TDK","tdk","Tdk"]: #jika memilih 'tidak', otomatis data tidak akan tersimpan dan jika mengisi lagi maka data sebelumnya akan ditimpa.
-                                print('\nSilakan masukkan data ktp lagi...')
+                                print('\nJika data belum sesuai, silakan masukkan data ktp lagi dengan mengketik "iya" pada pilihan berikutnya...\n')
                                 break
                         else:
                                 print('Mohon ketikkan "iya" atau "tidak"...\n')
@@ -212,12 +212,17 @@ def input_ktp(list_KTP:list,no_kartu_user:list)->list:
 def mencetak(list_KTP:list,no_kartu_user:list)->list:
                 while True:
                         try:
-                                print(f"\nNomor data E-KTP yang anda miliki sekarang : ", end='')
+                                
                                 if len(no_kartu_user)==0:
+                                        print(f"{'='*54}")
+                                        print(f"\nNomor data E-KTP yang anda miliki sekarang : ", end='')
                                         print('tidak ada')
                                         print('Silakan masukkan ulang data E-KTP pada pilihan 1')
+                                        print(f"{'='*54}")
+                                        print('')
                                         break
                                 else:
+                                        print(f"\nNomor data E-KTP yang anda miliki sekarang : ", end='')
                                         for i in no_kartu_user:
                                                 print(i, end=', ')
                                 print('')
@@ -259,7 +264,7 @@ def mencetak(list_KTP:list,no_kartu_user:list)->list:
                                                         else:
                                                                 b=int((68-int(len(namakota)))/2)
                                                                 break
-                                                print('|{0}{1}{0}|'.format(' '*b,namakota))
+                                                print('|{0}{1}{0} |'.format(' '*b,namakota))
                                                 print('|{0}|'.format(' '*68))
                                                 nik="|  NIK               : {0}".format(i[1])
                                                 print("{0}{1}|".format(nik,' '*int(69-int(len(nik)))))
@@ -357,11 +362,12 @@ def hapus_data(list_KTP:list,no_kartu_user:list)->list:
                         print('='*46)
                         print('Seluruh nomor data E-KTP anda sudah dihapus...')
                         print('Silakan masukkan ulang pada pilihan pertama...')
-                        print('='*46)  
+                        print('='*46) 
+                        print('') 
                         break
                 else:
                         break  
-        while True:
+        while len(list_KTP)!=0:
                 print(f'\n{"="*28}\nPROGRAM MENGHAPUS DATA E-KTP\n{"="*28}')
                 print('Silakan masukkan nomor yang sesuai dengan opsi berikut :\n1. Menghapus semua nomor data E-KTP yang anda miliki.\n2. Menghapus nomor data E-KTP tertentu.\n3. Batalkan program penghapusann data E-KTP')
                 try:
@@ -374,12 +380,13 @@ def hapus_data(list_KTP:list,no_kartu_user:list)->list:
                                                 list_KTP.clear()
                                                 no_kartu_user.clear()
                                                 print(f"\nSeluruh nomor kartu yang anda miliki untuk menyimpan data E-KTP anda sudah dihapus...\n")
-                                                break 
+                                                break
                                         if keputusan in ["tidak","Tidak","TIDAK"]:
                                                 print('\nProgram penghapusan opsi 1 dibatalkan...')
                                                 break
                                         else:
                                                 print('Mohon ketikkan "iya" atau "tidak"...')
+                                
 
                         if kartu_nomor == 2:
                                 while True:
@@ -405,7 +412,7 @@ def hapus_data(list_KTP:list,no_kartu_user:list)->list:
                                                         except ValueError:
                                                                 print('\nMohon masukkan dengan nomor E-KTP yang anda miliki...')
                                         if keputusan in ["tidak","Tidak","TIDAK"]:
-                                                print('Program penghapusan opsi 2 dibatalkan...')
+                                                print('\nProgram penghapusan opsi 2 dibatalkan...')
                                                 break
                                         else:
                                                 print('Mohon ketikkan "iya" atau "tidak"...')
@@ -418,6 +425,7 @@ def hapus_data(list_KTP:list,no_kartu_user:list)->list:
                                 break
                         if kartu_nomor not in [1,2,3]:
                                 print('Mohon masukkan sesuai nomor pilihan yang tertera diatas...')
+                        break
                 except ValueError:
                         print('Mohon isikan dengan angka yang tertera saja...')
                         

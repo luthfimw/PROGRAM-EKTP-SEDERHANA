@@ -30,9 +30,9 @@ while True:
                     print('Maaf, anda harus mengisikan data E-KTP pada pilihan pertama terlebih dahulu')
                     print(f"{'='*75}\n\n")
                 except IndexError: 
-                    print(f"\n\n{'='*79}")
-                    print(f'Data dengan nomor yang anda inginkan tidak tersedia atau mungkin telah dihapus, \njika anda telah menghapusnya, silakan masukkan ulang pada pilihan 1')
-                    print(f"{'='*79}\n\n")
+                    print(f"\n\n{'='*78}")
+                    print(f'Data dengan nomor yang anda masukan tidak tersedia atau mungkin telah dihapus, \njika anda telah menghapusnya, silakan masukkan ulang pada pilihan 1')
+                    print(f"{'='*78}\n\n")
                 pass
             if pilihan == 3:
                 try:

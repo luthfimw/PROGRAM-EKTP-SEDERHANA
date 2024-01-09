@@ -177,9 +177,12 @@ def input_ktp():
                         ulang = str(input("Apakah data yang dimasukkan sudah sesuai? Ketik 'iya' jika sudah dan 'tidak' jika belum. \n"))
                         if ulang in ["iya","IYA","Iya","ya","YA","Ya"]: #jika memilih 'iya' , maka data akan disimpan dalam list, jika kemudian ingin menambahkan data lagi, dia bisa menyimpan data baru tersebut di dalam nesting list.
                                 data_ktp_sementara = [hariini,nik,nama,tempatlahir,tanggallahir,jeniskelamin,golongandarah,provinsi,kota,namkot,kecamatan,kelurahan,rt,rw,alamat,agama,status,pekerjaan,kewarganegaraan,masaberlaku,namakota]
-                                list_KTP.append(data_ktp_sementara)        
+                                list_KTP.append(data_ktp_sementara)
                                 print("")
                                 print(("Anda mendapatkan kartu nomor " + str(len(list_KTP))))
+                                no_kartu_user = []
+                                no_sementara = [len(list_KTP)]
+                                no_kartu_user.extend(no_sementara)                                
                                 print("")
                                 break
                                 
@@ -189,8 +192,11 @@ def input_ktp():
                 pilihan_loop_utama = input('Apakah anda ingin memasukkan data ktp lainnya atau ingin memasukkan ulang? Ketik "iya" atau "tidak" jika untuk memilih... \n')
                 if pilihan_loop_utama in ["tidak","Tidak","TIDAK","TDK","tdk","Tdk"]:
                         if len(list_KTP)==1:
-                                print(f'Anda memiliki nomor ktp : 1')
+                                print(f'Nomor data E-KTP yang anda miliki : 1')
                         else:
+                                print(f"Nomor data E-KTP yang anda miliki : ", end='')
+                                for i in range(len(no_kartu_user)):
+                                        print(i, end=', ')
                                 print(f'anda memiliki nomor ktp angka 1 hingga {len(list_KTP)}')
                         break #jika memilih ini, maka program while true utama akan di putus dan meretrun list_KTP
                 else:

@@ -779,3 +779,78 @@
 |                                                          TTD       |
 |                                                                    |
 ----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                           PROVINSI SAJSA                           |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 1111222233334444                              |
+|                                                      ------------  |
+|  NIK               : 1111222233334444                |          |  |
+|  Tempat/Tgl Lahir  : LL, 12-12-1111                  |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : ASA                             |          |  |
+|      RT/RW         : 002/2292                        |   FOTO   |  |
+|      Kel/Desa      : JAJAJSJSA                       |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : DAS                             |          |  |
+|  Status Perkawinan : ASD                             ------------  |
+|  Pekerjaan         : AD                               SURAKARTA    |
+|  Kewarganegaraan   : WNI                              09-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI                               |
+|                           KABUPATEN NASA                           |
+|                                                                    |
+|  NIK               : 1212121212121212                              |
+|                                                      ------------  |
+|  NIK               : 1212121212121212                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-12-2022           |          |  |
+|  Jenis kelamin     : PEREMPUAN      Gol. Darah  : O  |          |  |
+|  Alamat            : 213                             |          |  |
+|      RT/RW         : 0121/2123                       |   FOTO   |  |
+|      Kel/Desa      : DA                              |          |  |
+|      Kecamatan     : MAS                             |          |  |
+|  Agama             : ASDAS                           |          |  |
+|  Status Perkawinan : DASD                            ------------  |
+|  Pekerjaan         : DASD                             SURAKARTA    |
+|  Kewarganegaraan   : ASD                              09-01-2024   |
+|  Berlaku Hingga    : 09-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI                               |
+|                           KABUPATEN NASA                           |
+|                                                                    |
+|  NIK               : 1212121212121212                              |
+|                                                      ------------  |
+|  NIK               : 1212121212121212                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-12-2022           |          |  |
+|  Jenis kelamin     : PEREMPUAN      Gol. Darah  : O  |          |  |
+|  Alamat            : 213                             |          |  |
+|      RT/RW         : 0121/2123                       |   FOTO   |  |
+|      Kel/Desa      : DA                              |          |  |
+|      Kecamatan     : MAS                             |          |  |
+|  Agama             : ASDAS                           |          |  |
+|  Status Perkawinan : DASD                            ------------  |
+|  Pekerjaan         : DASD                             SURAKARTA    |
+|  Kewarganegaraan   : ASD                              09-01-2024   |
+|  Berlaku Hingga    : 09-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------

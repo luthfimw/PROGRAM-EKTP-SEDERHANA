@@ -22,7 +22,7 @@ while True:
                     print(f"\n\n{'='*75}")
                     print('Maaf, anda harus mengisikan data E-KTP pada pilihan pertama terlebih dahulu')
                     print(f"{'='*75}\n\n")
-                except IndexError:
+                except IndexError: 
                     print(f"\n\n{'='*106}")
                     print(f'Data anda telah di hapus, silahkan masukkan ulang pada pilihan 1')
                     print(f"{'='*106}\n\n")

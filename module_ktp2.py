@@ -191,7 +191,7 @@ def input_ktp(list_KTP:list,no_kartu_user:list)->list:
                         else:
                                 print('Mohon ketikkan "iya" atau "tidak"...\n')
                 while True:                
-                        pilihan_loop_utama = input('Apakah anda ingin memasukkan data E-KTP lainnya atau ingin memasukkan ulang data E-KTP? Ketik "iya" atau "tidak" untuk memilih..\n')
+                        pilihan_loop_utama = input('Apakah anda ingin memasukkan data E-KTP lainnya atau ingin memasukkan ulang data E-KTP? Ketik "iya" atau "tidak" untuk memilih...\n')
                         if pilihan_loop_utama in ["tidak","Tidak","TIDAK","TDK","tdk","Tdk"]:
                                 if len(list_KTP)==1:
                                         print(f'\nNomor data E-KTP yang anda miliki : 1\n')

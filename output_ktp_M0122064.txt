@@ -1629,3 +1629,528 @@
 |                                                          TTD       |
 |                                                                    |
 ----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                            |
+|                                                                    |
+|  NIK               : 1222222222222222                              |
+|                                                      ------------  |
+|  NIK               : 1222222222222222                |          |  |
+|  Tempat/Tgl Lahir  : K, 12-12-2222                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 121/121                         |   FOTO   |  |
+|      Kel/Desa      : L                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                    L        |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA BARAT                         |
+|                            KOTA BANDUNG                            |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : BANDUNG, 23-10-2004             |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : JALAN JALAN BELOK KIRI          |          |  |
+|      RT/RW         : 004/003                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : JATINANGOOOR                    |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : MAHASISWA                         BANDUNG     |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                            |
+|                                                                    |
+|  NIK               : 2222222222222222                              |
+|                                                      ------------  |
+|  NIK               : 2222222222222222                |          |  |
+|  Tempat/Tgl Lahir  : BANDUNG, 23-10-2004             |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : JALAN SRIKAYA 4                 |          |  |
+|      RT/RW         : 212/212                         |   FOTO   |  |
+|      Kel/Desa      : L                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : MAHASISWA / PELAJAR                  L        |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                        KABUPATEN SURAKARTA                        |
+|                                                                    |
+|  NIK               : 2200220022002200                              |
+|                                                      ------------  |
+|  NIK               : 2200220022002200                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 17-02-2004           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : B  |          |  |
+|  Alamat            : JALAN SIWALAYAN 3               |          |  |
+|      RT/RW         : 004/002                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM KAWIN                     ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA              SURAKARTA    |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA BARAT                         |
+|                            KOTA BANDUNG                            |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : BANDUNG, 23-10-2004             |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : JALAN JALAN BELOK KIRI          |          |  |
+|      RT/RW         : 004/003                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : JATINANGOOOR                    |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : MAHASISWA                         BANDUNG     |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-12-2022           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : B  |          |  |
+|  Alamat            : JALAN SIWALAYAN 3               |          |  |
+|      RT/RW         : 001/002                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA              SURAKARTA    |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 2222222222222222                              |
+|                                                      ------------  |
+|  NIK               : 2222222222222222                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-12-2022           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : B  |          |  |
+|  Alamat            : JALAN SIWALAYAN IX NO. 3        |          |  |
+|      RT/RW         : 003/007                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA              SURAKARTA    |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SEMARANG                           |
+|                                                                    |
+|  NIK               : 3333333333333333                              |
+|                                                      ------------  |
+|  NIK               : 3333333333333333                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-12-2022           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : B  |          |  |
+|  Alamat            : JALAN SIPADAN 4                 |          |  |
+|      RT/RW         : 003/004                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR/MAHASISWA                SURAKARTA    |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 2222222222222222                              |
+|                                                      ------------  |
+|  NIK               : 2222222222222222                |          |  |
+|  Tempat/Tgl Lahir  : K, 12-12-2022                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : JALAN SIPADAN                   |          |  |
+|      RT/RW         : 003/004                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : MAHASISWA                        SURAKARTA    |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-12-2022           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : A  |          |  |
+|  Alamat            : JALAN SIPADAN                   |          |  |
+|      RT/RW         : 002/004                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR/MAHASISWA                SURAKARTA    |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                       KABUPATEN KARANGANYAR                       |
+|                                                                    |
+|  NIK               : 2222222222222222                              |
+|                                                      ------------  |
+|  NIK               : 2222222222222222                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-12-2002           |          |  |
+|  Jenis kelamin     : PEREMPUAN      Gol. Darah  : AB |          |  |
+|  Alamat            : JALAN MARICA 3                  |          |  |
+|      RT/RW         : 003/003                         |   FOTO   |  |
+|      Kel/Desa      : BATURAN                         |          |  |
+|      Kecamatan     : COLOMADU                        |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA             KARANGANYAR   |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                            KABUPATEN L                            |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : DSA, 12-11-1111                 |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 121/121                         |   FOTO   |  |
+|      Kel/Desa      : L                               |          |  |
+|      Kecamatan     : L                               |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                    L        |
+|  Kewarganegaraan   : L                                10-01-2024   |
+|  Berlaku Hingga    : 10-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENAA                         |
+|                           KABUPATEN SAA                           |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : L, 11-11-1111                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : A  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 111/111                         |   FOTO   |  |
+|      Kel/Desa      : SAA                             |          |  |
+|      Kecamatan     : AS                              |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                   SAA       |
+|  Kewarganegaraan   : L                                10-01-2024   |
+|  Berlaku Hingga    : 10-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                              KOTA AS                              |
+|                                                                    |
+|  NIK               : 2222222244444444                              |
+|                                                      ------------  |
+|  NIK               : 2222222244444444                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 17-01-2002           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : JALAN SRIKAYA                   |          |  |
+|      RT/RW         : 003/002                         |   FOTO   |  |
+|      Kel/Desa      : ADA                             |          |  |
+|      Kecamatan     : SA                              |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : SUDAH MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA                 SAA       |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENAA                         |
+|                           KABUPATEN SAA                            |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : L, 11-11-1111                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : A  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 111/111                         |   FOTO   |  |
+|      Kel/Desa      : SAA                             |          |  |
+|      Kecamatan     : AS                              |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                   SAA       |
+|  Kewarganegaraan   : L                                10-01-2024   |
+|  Berlaku Hingga    : 10-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                              KOTA AS                               |
+|                                                                    |
+|  NIK               : 2222222244444444                              |
+|                                                      ------------  |
+|  NIK               : 2222222244444444                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 17-01-2002           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : JALAN SRIKAYA                   |          |  |
+|      RT/RW         : 003/002                         |   FOTO   |  |
+|      Kel/Desa      : ADA                             |          |  |
+|      Kecamatan     : SA                              |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : SUDAH MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA                 SAA       |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                             PROVINSI L                             |
+|                              KOTA AS                               |
+|                                                                    |
+|  NIK               : 2222222244444444                              |
+|                                                      ------------  |
+|  NIK               : 2222222244444444                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 17-01-2002           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : JALAN SRIKAYA                   |          |  |
+|      RT/RW         : 003/002                         |   FOTO   |  |
+|      Kel/Desa      : ADA                             |          |  |
+|      Kecamatan     : SA                              |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : SUDAH MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA                 SAA       |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENAA                         |
+|                           KABUPATEN SAA                            |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : L, 11-11-1111                   |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : A  |          |  |
+|  Alamat            : L                               |          |  |
+|      RT/RW         : 111/111                         |   FOTO   |  |
+|      Kel/Desa      : SAA                             |          |  |
+|      Kecamatan     : AS                              |          |  |
+|  Agama             : L                               |          |  |
+|  Status Perkawinan : L                               ------------  |
+|  Pekerjaan         : L                                   SAA       |
+|  Kewarganegaraan   : L                                10-01-2024   |
+|  Berlaku Hingga    : 10-01-2029                                    |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-02-2003           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : A  |          |  |
+|  Alamat            : JALAN SRIKAYA 3                 |          |  |
+|      RT/RW         : 003/002                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA              SURAKARTA    |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                       KABUPATEN KARANGANYAR                       |
+|                                                                    |
+|  NIK               : 2222222222222222                              |
+|                                                      ------------  |
+|  NIK               : 2222222222222222                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 17-12-2009           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : A  |          |  |
+|  Alamat            : JALAN NANAS 3                   |          |  |
+|      RT/RW         : 002/003                         |   FOTO   |  |
+|      Kel/Desa      : BATURAN                         |          |  |
+|      Kecamatan     : COLOMADU                        |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA             KARANGANYAR   |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                       KABUPATEN KARANGANYAR                       |
+|                                                                    |
+|  NIK               : 3333333333333333                              |
+|                                                      ------------  |
+|  NIK               : 3333333333333333                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-12-2002           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : O  |          |  |
+|  Alamat            : JALAN SRIKAYA 3                 |          |  |
+|      RT/RW         : 001/002                         |   FOTO   |  |
+|      Kel/Desa      : BATURAN                         |          |  |
+|      Kecamatan     : COLOMADU                        |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA             KARANGANYAR   |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------

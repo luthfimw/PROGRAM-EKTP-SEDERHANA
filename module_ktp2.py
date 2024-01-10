@@ -8,7 +8,7 @@ yang berada di dalam satu folder dengan file module ini.
 #1 FUNGSI UNTUK MEMBERIKAN PILIHAN FITUR PADA PROGRAM INPUT E-KTP
 def menu ():
         '''Menampilakn fitur yang tersedia pada program E-KTP'''
-        print(f"{"="*33} \n{'Selamat Datang di Progryam E-KTP'.center(33)} \n{"="*33}")
+        print(f"{"="*33} \n{'Selamat Datang di Program E-KTP'.center(33)} \n{"="*33}")
         print("DAFTAR MENU :")
         print("[1] Input Data E-KTP")
         print("[2] Cetak Data E-KTP")
@@ -265,7 +265,7 @@ def mencetak(list_KTP:list,no_kartu_user:list)->list:
                                                         else:
                                                                 b=int((68-int(len(namakota)))/2)
                                                                 break
-                                                print('|{0}{1}{0} |'.format(' '*b,namakota))
+                                                print('|{0}{1}{0}|'.format(' '*b,namakota))
                                                 print('|{0}|'.format(' '*68))
                                                 nik="|  NIK               : {0}".format(i[1])
                                                 print("{0}{1}|".format(nik,' '*int(69-int(len(nik)))))
@@ -354,7 +354,7 @@ def mencetak(list_KTP:list,no_kartu_user:list)->list:
                                 else:
                                         print('Masukkan nomor kartu data E-KTP sesuai yang anda dapatkan! Atau mungkin anda telah menghapus data yang diinputkan')
                         except ValueError:
-                                print('Mohon untuk memasukkan nomor E-KTP dengan benar...')
+                                print('\nMohon untuk memasukkan nomor E-KTP dengan benar...')
 #4 FUGNSI INI UNTUK MENGHAPUS DATA E-KTP YANG SUDAH DI BUAT
 def hapus_data(list_KTP:list,no_kartu_user:list)->list: 
         while True:   
@@ -396,8 +396,6 @@ def hapus_data(list_KTP:list,no_kartu_user:list)->list:
                                         if keputusan in ["iya","IYA","Iya","ya","YA","Ya"]:
                                                 while True:
                                                         try:
-                                                                   
-                                                                print('')
                                                                 print(f"\nNomor data E-KTP yang anda miliki sekarang : ", end='')
                                                                 if len(no_kartu_user)==0:
                                                                         print('tidak ada')
@@ -412,23 +410,26 @@ def hapus_data(list_KTP:list,no_kartu_user:list)->list:
                                                                         pilih_nomor = int(pilih_nomor)
                                                                         list_KTP[pilih_nomor-1] = None #dibikin none, karena kalau di hapus, otomatis tempat list dia akan diisi oleh list_KTP[pilih_nomor-2], (cuma kegeser lah), makanya pakai none biar ga geser 
                                                                         no_kartu_user.remove(str(pilih_nomor))
-                                                                        print(f"Data kartu dengan nomor {pilih_nomor} telah dihapus\n" )
+                                                                        print(f"\nData kartu dengan nomor {pilih_nomor} telah dihapus...\n" )
                                                                         break
                                                                         
                                                                 else:
+                                                                        print('\nMohon masukkan dengan nomor E-KTP yang anda miliki...')
                                                                         print(f'Anda saat ini memiliki kartu data E-KTP dengan nomor :', end='')
                                                                         for i in no_kartu_user:
                                                                                 print(i, end=', ')
-                                                                        print('\n')
-                                                                break               
+                                                                        print(' ')
+                                                                               
                                                         except ValueError:
                                                                 print('\nMohon masukkan dengan nomor E-KTP yang anda miliki...')
+                                                break
                                         if keputusan in ["tidak","Tidak","TIDAK"]:
                                                 print('\nProgram penghapusan opsi 2 dibatalkan...')
                                                 break
-                                        if keputusan not in ["tidak","Tidak","TIDAK","iya","IYA","Iya","ya","YA","Ya"]:
+                                        else:
                                                 print('Mohon ketikkan "iya" atau "tidak"...')
-                                        break
+                                                continue
+                                
                                         
 
                                 

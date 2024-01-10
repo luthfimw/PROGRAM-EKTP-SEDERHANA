@@ -20,13 +20,19 @@
 # pilih_nomor = int(input('Masukkan nomor kartu data E-KTP yang ingin dihapus : '))
 # lisk.remove(pilih_nomor)
 # print(lisk)
-list_KTP = [1,2]
-no_kartu_user = [1,2]
+# list_KTP = [[1],[2]]
+# no_kartu_user = ['1','2']
+# pilih_nomor = int(input('Masukkan nomor kartu data E-KTP yang ingin dihapus : '))
+# if pilih_nomor in no_kartu_user:
+#     print("")
+#     list_KTP[pilih_nomor-1] = None #dibikin none, karena kalau di hapus, otomatis tempat list dia akan diisi oleh list_KTP[pilih_nomor-2], (cuma kegeser lah), makanya pakai none biar ga geser 
+#     no_kartu_user.remove(pilih_nomor)
+#     print(f"Data kartu dengan nomor {pilih_nomor} telah dihapus\n" )
+#     print(list_KTP)
+#     print(no_kartu_user)
+    
 pilih_nomor = int(input('Masukkan nomor kartu data E-KTP yang ingin dihapus : '))
-if pilih_nomor in range(1,len(list_KTP)+1):
-    print("")
-    list_KTP[pilih_nomor-1] = None #dibikin none, karena kalau di hapus, otomatis tempat list dia akan diisi oleh list_KTP[pilih_nomor-2], (cuma kegeser lah), makanya pakai none biar ga geser 
-    no_kartu_user.remove(pilih_nomor)
-    print(f"Data kartu dengan nomor {pilih_nomor} telah dihapus\n" )
-    print(list_KTP)
-    print(no_kartu_user)
+strinl= [str(pilih_nomor)]
+pp = [pilih_nomor]
+print(strinl)
+print(pp)

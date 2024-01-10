@@ -8,12 +8,12 @@ yang berada di dalam satu folder dengan file module ini.
 #1 FUNGSI UNTUK MEMBERIKAN PILIHAN FITUR PADA PROGRAM INPUT E-KTP
 def menu ():
         '''Menampilakn fitur yang tersedia pada program E-KTP'''
-        print(f"{'='*10} Selamat Datang di Program E-KTP {'='*10}")
-        print("\n\t   DAFTAR MENU")
-        print("     [1] Input Data E-KTP")
-        print("     [2] Cetak Data E-KTP")
-        print("     [3] Hapus Data E-KTP")
-        print("     [4] Keluar dari Program")
+        print(f"{"="*33} \n{'Selamat Datang di Progryam E-KTP'.center(33)} \n{"="*33}")
+        print("DAFTAR MENU :")
+        print("[1] Input Data E-KTP")
+        print("[2] Cetak Data E-KTP")
+        print("[3] Hapus Data E-KTP")
+        print("[4] Keluar dari Program")
 
 #2 FUGNSI JIKA PILIHAN YANG DIPILIH ADALAH INPUT DATA UNTUK E-KTP
 def input_ktp(list_KTP:list,no_kartu_user:list)->list:
@@ -46,7 +46,7 @@ def input_ktp(list_KTP:list,no_kartu_user:list)->list:
         hariini='{0}-{1}-{2}'.format(day,month,year)
         
         while True: #while true utama, PENTING UNTUK AKHIR 
-                print("\nSilakan input data E-KTP dengan benar")
+                print("\nSilakan input data E-KTP dengan benar...")
                 while True:
                         try:
                                 nik=int(input('NIK \t\t\t   : '))
@@ -108,7 +108,8 @@ def input_ktp(list_KTP:list,no_kartu_user:list)->list:
                                 break
                         print('Maaf hanya menerima laki-laki atau perempuan. Silakan masukkan ulang (L/P)')
                 while True:
-                        print(f'Pilih golongan darah anda\nO\nA\nB\nAB')
+                        print(f'\nPilih golongan darah anda : ')
+                        print(f'[A]  -> jika golongan darah anda A\n[B]  -> jika golongan darah anda B\n[AB] -> jika golongan darah anda AB\n[O]  -> jika golongan darah anda O')
                         golongandarah=str(input('Golongan Darah \t\t   : '))
                         if golongandarah in ['A', 'a']:
                                 golongandarah='A'
@@ -122,7 +123,7 @@ def input_ktp(list_KTP:list,no_kartu_user:list)->list:
                         elif golongandarah in ['AB','Ab','aB','ab']:
                                 golongandarah='AB'
                                 break
-                        print('Golongan Darah tidak ditemukan. Silakan masukkan ulang. Contoh, Golongan Darah : O')
+                        print('\nGolongan Darah tidak ditemukan. Silakan masukkan ulang. Contoh, Golongan Darah : O')
                 provinsi=str(input('Provinsi \t\t   : '))
                 provinsi=provinsi.upper()
                 while True:
@@ -211,8 +212,7 @@ def input_ktp(list_KTP:list,no_kartu_user:list)->list:
 #3 FUNGIS INI DIGUNAKAN UNTUK MENCETAK DATA KTP 
 def mencetak(list_KTP:list,no_kartu_user:list)->list:
                 while True:
-                        try:
-                                
+                        try:                               
                                 if len(no_kartu_user)==0:
                                         print('')
                                         print(f"{'='*54}")
@@ -370,9 +370,10 @@ def hapus_data(list_KTP:list,no_kartu_user:list)->list:
                         break  
         while len(list_KTP)!=0:
                 print(f'\n{"="*28}\nPROGRAM MENGHAPUS DATA E-KTP\n{"="*28}')
-                print('Silakan masukkan nomor yang sesuai dengan opsi berikut :\n1. Menghapus semua nomor data E-KTP yang anda miliki.\n2. Menghapus nomor data E-KTP tertentu.\n3. Batalkan program penghapusann data E-KTP')
+                print('Silakan masukkan nomor yang sesuai dengan opsi berikut :\n1. Menghapus semua nomor data E-KTP yang anda miliki.\n2. Menghapus nomor data E-KTP tertentu.\n3. Batalkan program penghapusann data E-KTP.')
                 try:
                         kartu_nomor = int(input("\nPilih nomor yang sesuai untuk opsi menghapus : "))
+                        print('')
                         
                         if kartu_nomor == 1:
                                 while True:        
@@ -390,13 +391,22 @@ def hapus_data(list_KTP:list,no_kartu_user:list)->list:
                                 
 
                         if kartu_nomor == 2:
+                                #ada masalah pada tipe datanya, pada list no_kartu_user isinya str semua
+                                #bawah ini unutk tracking tipe data
+                                print('==========')
+                                print(list_KTP)
+                                print(no_kartu_user)
+                                print('==========')
+                                print(f'Anda sekarang memiliki data E-KTP dengan nomor :',end=' ')
+                                for i in no_kartu_user:
+                                        print(i,end=', ')
                                 while True:
                                         keputusan = input('\nApakah anda yakin ingin menghapus nomor kartu tertentu yang menyimpan data E-KTP anda? Ketik "iya" atau "tidak" untuk memilih...\n')
                                         if keputusan in ["iya","IYA","Iya","ya","YA","Ya"]:
                                                 while True:
                                                         try:
                                                                 pilih_nomor = int(input('Masukkan nomor kartu data E-KTP yang ingin dihapus : '))
-                                                                if pilih_nomor in no_kartu_user:
+                                                                if str(pilih_nomor) in no_kartu_user:
                                                                         list_KTP[pilih_nomor-1] = None #dibikin none, karena kalau di hapus, otomatis tempat list dia akan diisi oleh list_KTP[pilih_nomor-2], (cuma kegeser lah), makanya pakai none biar ga geser 
                                                                         no_kartu_user.remove(pilih_nomor)
                                                                         print(f"Data kartu dengan nomor {pilih_nomor} telah dihapus\n" )
@@ -439,8 +449,3 @@ def program_selesai():
                 print('TERIMAKASIH TELAH MENGGUNAKAN PROGRAM INI'.center(50))
                 print(f'{"="*25}{"="*25}\n')
                 break
-
-
-#note program :
-#segala notifikasi peringatan kesalahan harus dikasih ============
-#cek keseluruhan fitur baru program apakah berjalan dengan baik atau tidak.

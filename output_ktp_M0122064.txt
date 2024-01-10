@@ -2154,3 +2154,78 @@
 |                                                          TTD       |
 |                                                                    |
 ----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 1111111111111111                              |
+|                                                      ------------  |
+|  NIK               : 1111111111111111                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-01-2004           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : A  |          |  |
+|  Alamat            : JALAN SRIKAYA 3                 |          |  |
+|      RT/RW         : 003/004                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA              SURAKARTA    |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 2222222222222222                              |
+|                                                      ------------  |
+|  NIK               : 2222222222222222                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-01-2004           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : B  |          |  |
+|  Alamat            : JALAN SIPADAN 3                 |          |  |
+|      RT/RW         : 003/002                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA              SURAKARTA    |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------
+                         Kartu Tanda Penduduk                          
+----------------------------------------------------------------------
+|                                                                    |
+|                        PROVINSI JAWA TENGAH                        |
+|                           KOTA SURAKARTA                           |
+|                                                                    |
+|  NIK               : 3333333344444444                              |
+|                                                      ------------  |
+|  NIK               : 3333333344444444                |          |  |
+|  Tempat/Tgl Lahir  : SURAKARTA, 12-02-2004           |          |  |
+|  Jenis kelamin     : LAKI-LAKI      Gol. Darah  : B  |          |  |
+|  Alamat            : JALAN SIPEDAN                   |          |  |
+|      RT/RW         : 002/002                         |   FOTO   |  |
+|      Kel/Desa      : JAJAR                           |          |  |
+|      Kecamatan     : LAWEYAN                         |          |  |
+|  Agama             : ISLAM                           |          |  |
+|  Status Perkawinan : BELUM MENIKAH                   ------------  |
+|  Pekerjaan         : PELAJAR / MAHASISWA              SURAKARTA    |
+|  Kewarganegaraan   : WNI                              10-01-2024   |
+|  Berlaku Hingga    : SEUMUR HIDUP                                  |
+|                                                                    |
+|                                                                    |
+|                                                          TTD       |
+|                                                                    |
+----------------------------------------------------------------------

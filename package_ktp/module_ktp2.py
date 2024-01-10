@@ -1,8 +1,8 @@
 '''
 Nama : Luthfi Mahendra Widiarto
 NIM  : M0122064
-ini adalah modul atau package yang berisi deklarasi fungsi untuk digunakan pada program utama ktp yaitu main_ktp.py
-yang berada di dalam satu folder dengan file module ini.
+ini adalah modul dari package_ktp yang berisi deklarasi fungsi untuk digunakan pada program utama ktp yaitu main_program2.py
+yang berada di dalam satu direktori dengan folder module ini.
 '''
 
 #1 FUNGSI UNTUK MEMBERIKAN PILIHAN FITUR PADA PROGRAM INPUT E-KTP
